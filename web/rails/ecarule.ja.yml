@@ -1,0 +1,76 @@
+---
+ja:
+  ecarule:
+    event:
+      description:
+        in_app_custom_event: "Not supported"
+        in_app_focus_to_chat: "Chat application focused"
+        in_app_open_chat: "Chat is open in application"
+        in_channel_close_chat: "Channel is closed"
+        in_channel_fixed_sticker_action_selected: "Fixed widget\'s action is selected"
+        in_channel_funnel_moved: "Channel\'s funnel is changed"
+        in_channel_funnel_moved_from: "Channel\'s funnel is changed"
+        in_channel_funnel_moved_to: "Channel\'s funnel is changed"
+        in_channel_receive_message: "Receive message from customer"
+        in_channel_open_chat: "Channel is created"
+        in_channel_receive_sticker: "Receive widget from customer"
+        in_channel_recipe_replied: "Another recipe is triggered"
+        in_channel_sent_message: "Agent send a message"
+        in_channel_sent_sticker: "Agent send a widget"
+        in_channel_sticker_action_selected: "Widget\'s action is selected"
+        in_channel_trigger_by_recipe: "in_channel_trigger_by_recipe"
+        out_app_scheduled_batch: "Not supported"
+    action:
+      description:
+        move_funnel: "Change funnel to %{name}"
+        send_message: "send a message \"%{message}\"."
+        send_suggestion: "display suggestions %{suggestion}."
+        trigger_recipe: "Trigger another recipe (%{title})"
+        assign_user: "Assign this channel to %{assignee}, and add %{followers} as followers"
+        assign_user_no_one: "No one"
+    condtion:
+      description:
+        always: "Always"
+        locations: "Location is within %{radius}m of (%{lat}, %{lng})"
+        no_response: "Agent does not respond"
+        response_match: "Response match message #%{fixed_phrase_id}'s label \"%{label}\""
+        specified_funnel_position: "Funnel: %{funnel_name}"
+        specified_funnel_from: "Funnel is changed from %{funnel_name}"
+        specified_funnel_to: "Funnel is changed to %{funnel_name}"
+        specified_time_elapsed: "After %{second} seconds"
+        specified_time_range: "It is %{wdayText}, between %{from} and %{to} timezone %{timezone}"
+        specified_time_range_except: "It is not %{wdayText}, between %{from} and %{to} timezone %{timezone}"
+        string_match: "The message contains \"%{text}\""
+      text:
+        not_selected_weekdays: "not selected weekdays"
+    label:
+      suggestion_message_label: "Tell \"%{message}\""
+      create_a_new_recipe: "レシピの新規作成"
+      create_a_new_suggestion: "サジェスチョンの新規作成"
+      id: "ID"
+      name: "Name"
+      owner_user: "Owner user"
+      scope: "Scope"
+      event: "Event"
+      conditions: "Conditions"
+      actions: "Actions"
+      app: "App"
+      org: "Org"
+    list:
+      application: アプリ推奨
+      org: チーム推奨
+      user: 個人専用
+      empty_ecarules: 登録されていません
+    title:
+      create: 特定のシチュエーションにすばやく対応できるよう、
+      create_sup_title: あらかじめアクション候補を作成しておくことができます
+    warning:
+      uses_sticker_for_action: "Uses widget \"%{sticker_name}\" (%{sticker_id}) for action"
+      uses_sticker_for_condition: "Uses widget \"%{sticker_name}\" (%{sticker_id}) for condition"
+      uses_suggestion: "Uses suggestion \"%{sticker_name}\" (%{sticker_id})"
+      sticker_used_by_action:
+        recipe: "This Saved Widget is used as an action of Automation <a target=\"_blank\" href=\"%{recipe_url}\">%{recipe_name}</a>. You may need to consider that updating this Saved Widget affects the behavior of Automation %{recipe_name}."
+        suggestion: "This Saved Widget is used as an action of Suggestion <a href=\"%{recipe_url}\">%{recipe_name}</a>. You may need to consider that updating this Saved Widget affects the behavior of Suggestion %{recipe_name}."
+      sticker_used_by_condition:
+        recipe: "This Saved Widget is used as a condition of Automation <a target=\"_blank\" hred=\"%{recipe_url}\">%{recipe_name}</a>. You may need to consider that updating this Saved Widget affects the behavior of Automation %{recipe_name}."
+        suggestion: "This Saved Widget is used as an a condition of Suggestion <a target=\"_blank\" href=\"%{recipe_url}\">%{recipe_name}</a>. You may need to consider that updating this Saved Widget affects the behavior of Suggestion %{recipe_name}."

@@ -1,0 +1,2421 @@
+ja:
+  activerecord:
+    models:
+      app: アプリ  #g
+      app_user: app_user  #g
+      channel: チャネル  #g
+      channel_user: channel_user  #g
+      customer: ゲスト  #g
+      customer_report: カスタマーレポート  #g
+      message: メッセージ  #g
+      org: チーム  #g
+      org_user: org_user  #g
+      privilege: 権限  #g
+      role: ロール  #g
+      role_app_user: role_app_user  #g
+      role_privilege: role_privilege  #g
+      role_user: role_user  #g
+      sticker: ウィジェット  #g
+      sticker_app: widget_app  #g
+      tag: タグ  #g
+      tag_user: tag_user  #g
+      user: アカウント  #g
+      user_read_message: 既読メッセージ  #g
+      app_org_config: app_org_config  #g
+      org_config: org_config  #g
+      org_org_config: org_org_config  #g
+      user_config: user_config  #g
+      user_user_config: user_user_config  #g
+      superadmin: SuperAdmin  #g
+      channel_information: チャネル情報  #g
+      provider: プロバイダ  #g
+      store: ストア  #g
+      white_list: ホワイトリスト  #g
+      schedule: スケジュール  #g
+      app_icon: app_icon  #g
+      app_role: app_role  #g
+      opportunity_appointment: アポイント  #g
+      opportunity_competitor: 競合情報  #g
+      question: 質問  #g
+      question_selection: 選択肢 #g
+      question_yes_no: 二択質問  #g
+      answer: 答え  #g
+      question_free: 自由記述質問  #g
+      question_multi: 複数回答質問  #g
+      question_single: 単一回答質問  #g
+      notification: 通知  #g
+      app_notification: app_notification  #g
+      device: デバイス  #g
+      mobile_push_endpoint: プッシュ通知エンドポイント  #g
+      inquiry_log: 反響ログ  #g
+      message_upload_file: message_upload_file  #g
+      question_message: question_message  #g
+      upload_file: アップロードファイル  #g
+      recipe: レシピ  #g
+      recipe_action: レシピアクション  #g
+      recipe_action_email: Eメール  #g
+      recipe_condition: レシピ条件  #g
+      recipe_condition_datetime: 日時  #g
+      recipe_trigger: レシピトリガー  #g
+      recipe_history: レシピ履歴  #g
+      recipe_action_message: メッセージ  #g
+      recipe_condition_org: チーム  #g
+      funnel: ファネル  #g
+      fixed_phrase: 定型文  #g
+      fixed_phrase_org: fixed_phrase_org  #g
+      fixed_phrase_user: fixed_phrase_user  #g
+      widget_config: ウィジェット設定  #g
+      recipe_action_delete_user: recipe_action_delete_user  #g
+      recipe_action_delete_user_not_access: recipe_action_delete_user_not_access  #g
+      recipe_action_delete_user_not_access_role: recipe_action_delete_user_not_access_role  #g
+      user_email_status: Eメールステータス  #g
+      channel_note: channel_note  #g
+      note: ノート  #g
+      always: always  #g
+      assign_user: assign_user  #g
+      channel_user_unread_message: channel_user_unread_message  #g
+      eca_action: eca_action  #g
+      eca_condition: eca_condition  #g
+      eca_event: eca_event  #g
+      eca_rule: eca_rule  #g
+      fixed_phrase_app: fixed_phrase_app  #g
+      in_app_custom_event: in_app_custom_event  #g
+      in_app_focus_to_chat: in_app_focus_to_chat  #g
+      in_app_open_chat: in_app_open_chat  #g
+      in_channel_close_chat: in_channel_close_chat  #g
+      in_channel_fixed_sticker_action_selected: in_channel_fixed_widget_action_selected  #g
+      in_channel_funnel_moved: in_channel_funnel_moved  #g
+      in_channel_funnel_moved_from: in_channel_funnel_moved_from  #g
+      in_channel_funnel_moved_to: in_channel_funnel_moved_to  #g
+      in_channel_open_chat: in_channel_open_chat  #g
+      in_channel_receive_message: in_channel_receive_message  #g
+      in_channel_receive_sticker: in_channel_receive_widget  #g
+      in_channel_recipe_replied: in_channel_recipe_replied  #g
+      in_channel_sent_message: in_channel_sent_message  #g
+      in_channel_sent_sticker: in_channel_sent_widget  #g
+      in_channel_sticker_action_selected: in_channel_widget_action_selected  #g
+      in_channel_triggered_by_recipe: in_channel_triggered_by_recipe  #g
+      locations: locations  #g
+      move_funnel: move_funnel  #g
+      no_response: no_response  #g
+      out_app_scheduled_batch: out_app_scheduled_batch  #g
+      payment: payment  #g
+      response_match: response_match  #g
+      send_message: send_message  #g
+      send_suggestion: send_suggestion  #g
+      shortened_url: shortened_url  #g
+      specified_funnel_from: specified_funnel_from  #g
+      specified_funnel_position: specified_funnel_position  #g
+      specified_funnel_to: specified_funnel_to  #g
+      specified_time_elapsed: specified_time_elapsed  #g
+      specified_time_range: specified_time_range  #g
+      string_match: string_match  #g
+      suggestion: suggestion  #g
+      trigger_recipe: trigger_recipe  #g
+      user_authentication_token: user_authentication_token  #g
+      web_push_subscription: web_push_subscription  #g
+      location_history: location_history  #g
+      delivery: 配達情報  #g
+      delivery_detail: 配達情報詳細  #g
+      fixed_phrase_eca_action: fixed_phrase_eca_action  #g
+      fixed_phrase_eca_condition: fixed_phrase_eca_condition  #g
+      aggregation: 集計  #g
+      plan: プラン  #g
+      delivery_pattern: 配達パターン  #g
+      delivery_pattern_detail: 配達パターン詳細  #g
+      company: company  #g
+
+    attributes:
+      app:
+        deleted_at: deleted_at  #g
+        name: アプリケーション名  #g
+        orgs: チーム  #g
+        token: トークン  #g
+        uid: UID  #g
+        users: メンバー  #g
+        app_org_configs: app_org_configs  #g
+        org_configs: チーム設定  #g
+        user_configs: メンバー設定  #g
+        sticker_apps: ウィジェット  #g
+        stickers: ウィジェット  #g
+        app_icons: アイコン  #g
+        app_roles: app_roles  #g
+        roles: 権限  #g
+        subdomain: サブドメイン  #g
+        enable_subdomain: サブドメインを有効にする #g
+        ga_tracking_id: GAトラッキングID  #g
+        opportunity_appointments: アポイント  #g
+        opportunity_competitors: 競合情報  #g
+        schedules: スケジュール  #g
+        app_users: app_users  #g
+        business_type: ビジネスタイプ  #g
+        welcome_popup: ウェルカムポップアップ  #g
+        enable_welcome_popup: ウェルカムメッセージを表示する  #g
+        app_notifications: app_notifications  #g
+        notifications: 通知  #g
+        devices: デバイス  #g
+        application_arn: application_arn  #g
+        mobile_push_endpoints: プッシュ通知エンドポイント  #g
+        brand_bar: ブランドバー  #g
+        enable_brand_bar: ダッシュボードにブランドバーを表示する #g
+        recipes: レシピ  #g
+        funnels: ファネル  #g
+        allow_channel_status_nomessages: ゲストが最初のメッセージを送信した時にエージェントに通知される  #g
+        twitter_consumer_key: Twitter Consumer Key  #g
+        twitter_consumer_secret: Twitter Consumer Secret  #g
+        read_for_guest: ゲストの既読表示  #g
+        enable_read_for_guest: 既読表示, カスタマーの未読状況  #g
+        inquiry_interval_day: 問い合わせ間隔(日)  #g
+        android: android  #g
+        eca_rules: eca_rules  #g
+        fixed_phrase_apps: fixed_phrase_apps  #g
+        fixed_phrases: fixed_phrases  #g
+        ios: ios  #g
+        payment: :activerecord.models.payment  #g
+        required_to_pay: required_to_pay  #g
+        web: web  #g
+        multiple: 複数 #g
+        contract_ends_at: contract_ends_at  #g
+        contract_starts_at: contract_starts_at  #g
+        aggregations: aggregations  #g
+        plan: :activerecord.models.plan  #g
+        contract_interval: contract_interval  #g
+        number_of_available_chat_users_per_month: number_of_available_chat_users_per_month  #g
+        number_of_days_to_display_alerts_until_update_date: number_of_days_to_display_alerts_until_update_date  #g
+        contract_amount: contract_amount  #g
+        contract_currency: contract_currency  #g
+        status: ステータス  #g
+        installed_android: installed_android  #g
+        installed_ios: installed_ios  #g
+        installed_web: installed_web  #g
+        company: :activerecord.models.company  #g
+        disabled_at: disabled_at  #g
+        failed_at: failed_at  #g
+
+      app/funnels:
+        name: ファネル名  #g
+        order: ファネル順  #g
+        channel_count: 件数  #g
+
+      app/sticker_apps:
+        sticker_id: ウィジェット  #g
+
+      app/app_icons:
+        icon: 画像  #g
+
+      app_user:
+        app: :activerecord.models.app  #g
+        role_app_users: role_app_users  #g
+        roles: roles  #g
+        user: :activerecord.models.user  #g
+        schedules: schedules  #g
+        devices: devices  #g
+        guest: guest  #g
+
+      channel:
+        channel_users: channel_users  #g
+        deleted_at: deleted_at  #g
+        messages: メッセージ  #g
+        org: :activerecord.models.org  #g
+        status: ステータス  #g
+        uid: UID  #g
+        users: メンバー  #g
+        channel_informations: channel_informations  #g
+        latest_message: :activerecord.models.latest_message  #g
+        store: :activerecord.models.store  #g
+        email_sent_at: email_sent_at  #g
+        read: 既読  #g
+        assignee: :activerecord.models.assignee  #g
+        direct_message: ダイレクトメッセージ  #g
+        inquiry_logs: 反響ログ  #g
+        last_updated_at: 最終更新日時  #g
+        name: チャネル名  #g
+        funnel: :activerecord.models.funnel  #g
+        channel_note: :activerecord.models.channel_note  #g
+        note: :activerecord.models.note  #g
+        channel_user_unread_messages: channel_user_unread_messages  #g
+        channel_users_sort_by_latest_message_id: channel_users_sort_by_latest_message_id  #g
+
+      channel_user:
+        channel: :activerecord.models.channel  #g
+        last_read_message: last_read_message  #g
+        receipt: receipt  #g
+        user: :activerecord.models.user  #g
+        unread_messages: unread_messages  #g
+        email_sent_at: email_sent_at  #g
+        archived_at: archived_at  #g
+        latest_message: :activerecord.models.latest_message  #g
+
+      customer:
+        app_users: app_users  #g
+        apps: アプリ  #g
+        authentication_token: authentication_token  #g
+        authentication_ttl: authentication_ttl  #g
+        blocked: ブロック  #g
+        channel_users: channel_users  #g
+        channels: チャネル  #g
+        confirmation_sent_at: confirmation_sent_at  #g
+        confirmation_token: confirmation_token  #g
+        confirmed_at: confirmed_at  #g
+        current_sign_in_at: current_sign_in_at  #g
+        current_sign_in_ip: current_sign_in_ip  #g
+        customer_reports: カスタマーレポート  #g
+        deleted_at: deleted_at  #g
+        display_name: 表示名
+        email: メールアドレス  #g
+        email_opt_in: email_opt_in  #g
+        encrypted_password: encrypted_password  #g
+        family_name: 姓  #g
+        first_name: 名  #g
+        icon: アイコン  #g
+        invitation_accepted_at: invitation_accepted_at  #g
+        invitation_created_at: invitation_created_at  #g
+        invitation_limit: invitation_limit  #g
+        invitation_sent_at: invitation_sent_at  #g
+        invitation_token: invitation_token  #g
+        invited_by: :activerecord.models.invited_by  #g
+        invited_by_type: invited_by_type  #g
+        last_sign_in_at: last_sign_in_at  #g
+        last_sign_in_ip: last_sign_in_ip  #g
+        mobile_number: 電話番号  #g
+        name: 氏名  #g
+        note: ノート  #g
+        offline_at: offline_at  #g
+        online_at: online_at  #g
+        org_users: org_users  #g
+        orgs: チーム  #g
+        remember_created_at: remember_created_at  #g
+        reset_password_sent_at: reset_password_sent_at  #g
+        reset_password_token: パスワード再設定メール  #g
+        role_users: role_users  #g
+        roles: ロール  #g
+        status: ステータス  #g
+        tag_users: tag_users  #g
+        tags: タグ  #g
+        tmp_email: メールアドレス  #g
+        username: username  #g
+        provider: プロバイダ  #g
+        uid: UID  #g
+        user_configs: user_configs  #g
+        user_user_configs: user_user_configs  #g
+        failed_attempts: failed_attempts  #g
+        locked_at: locked_at  #g
+        password_updated_at: password_updated_at  #g
+        providers: providers  #g
+        unlock_token: unlock_token  #g
+        authentication_token_expires_at: authentication_token_expires_at  #g
+        questions: questions  #g
+        opportunity_appointments: アポイント  #g
+        opportunity_competitors: 競合情報  #g
+        schedules: schedules  #g
+        answers: answers  #g
+        devices: デバイス  #g
+        inquiry_logs: 反響ログ  #g
+        locale: 言語  #g
+        fixed_phrase_users: fixed_phrase_users  #g
+        fixed_phrases: 定型文  #g
+        last_access_at: 最終アクセス日時  #g
+        user_email_status: :activerecord.models.user_email_status  #g
+        supports_video_chat: supports_video_chat  #g
+        created_at: 作成日時  #g
+        funnel: ファネル
+        last_seen: オンライン
+        last_updated_at: 最終更新日
+
+        unassigned: 担当者なし
+        assigned: 担当
+        closed: Closed
+        date:
+          yesterday: "Yesterday"
+          today: "%I:%M %p"
+          day_ago: "%B %-d"
+          year_ago: "%b %-d, %Y"
+
+        channel_user_unread_messages: channel_user_unread_messages  #g
+        eca_rules: eca_rules  #g
+        password_salt: password_salt  #g
+        providers_facebook: providers_facebook  #g
+        providers_google: providers_google  #g
+        providers_twitter: providers_twitter  #g
+        providers_yahoojp: providers_yahoojp  #g
+        user_authentication_tokens: user_authentication_tokens  #g
+        address: 住所  #g
+        postal_code: 郵便番号  #g
+
+      customer_report:
+        note: ノート  #g
+        reason: 理由  #g
+        user: :activerecord.models.user  #g
+
+      message:
+        channel: :activerecord.models.channel  #g
+        content: content  #g
+        deleted_at: deleted_at  #g
+        meta: meta  #g
+        reply_to: :activerecord.models.reply_to  #g
+        type: type  #g
+        user: :activerecord.models.user  #g
+        user_read_messages: user_read_messages  #g
+        users_read_message: users_read_message  #g
+        answer: :activerecord.models.answer  #g
+        message_upload_files: message_upload_files  #g
+        question: :activerecord.models.question  #g
+        question_message: :activerecord.models.question_message  #g
+        upload_files: アップロードファイル  #g
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        location_histories: location_histories  #g
+
+      org:
+        ancestry: ancestry  #g
+        app: :activerecord.models.app  #g
+        channels: チャネル  #g
+        deleted_at: deleted_at  #g
+        name: チーム名  #g
+        org_users: org_users  #g
+        uid: チームID  #g
+        users: メンバー  #g
+        org_configs: org_configs  #g
+        org_org_configs: org_org_configs  #g
+        parent: 法人  #g
+        phone_number: 電話番号  #g
+        can_have_descendants: 下部チームの保有  #g
+        icon: アイコン  #g
+        agents: エージェント
+        members: メンバー
+        guests: お客様
+        address: 住所  #g
+        inquiry_logs: 反響ログ  #g
+        fixed_phrase_orgs: fixed_phrase_orgs  #g
+        fixed_phrases: 定型文  #g
+        recipe_condition_orgs: recipe_condition_orgs  #g
+        debug: デバッグ  #g
+        options: オプション
+        team: チーム
+        eca_rules: eca_rules  #g
+
+      org/org_org_configs:
+        config_value: チーム設定値  #g
+
+      org_user:
+        default: default  #g
+        org: :activerecord.models.org  #g
+        user: :activerecord.models.user  #g
+
+      privilege:
+        action: アクション  #g
+        deleted_at: deleted_at  #g
+        model: モデル  #g
+        role_privileges: role_privileges  #g
+        roles: ロール  #g
+
+      role:
+        app: :activerecord.models.app  #g
+        app_users: app_users  #g
+        deleted_at: deleted_at  #g
+        name: 名前  #g
+        privileges: 権限  #g
+        rank: ランク  #g
+        role_app_users: role_app_users  #g
+        role_privileges: role_privileges  #g
+        role_users: role_users  #g
+        uid: UID  #g
+        users: users  #g
+
+      role_app_user:
+        app_user: :activerecord.models.app_user  #g
+        role: :activerecord.models.role  #g
+
+      role_privilege:
+        privilege: :activerecord.models.privilege  #g
+        role: :activerecord.models.role  #g
+
+      role_user:
+        role: :activerecord.models.role  #g
+        user: :activerecord.models.user  #g
+
+      sticker:
+        name: 名前  #g
+        apps: アプリ  #g
+        sticker_apps: widget_apps  #g
+        select_title: 利用許可設定
+        sub_select_title: それぞれのウィジェットの利用可否及び利用可能対象者を設定してください。
+        create: 自社独自のウィジェットを作成する
+        sub_create_html: "自社のビジネスコミュニケーションに必要なウィジェットを作成したい場合は、チャットボタンよりお気軽に<a href='%{url}'>弊社担当者</a>へお問い合わせください。"
+        submit: 提出する
+        save_changes: 保存する
+
+      sticker_app:
+        app: :activerecord.models.app  #g
+        sticker: :activerecord.models.widget  #g
+        admin: アドミン  #g
+        guest: ゲスト  #g
+
+      tag:
+        name: 名前  #g
+        users: メンバー  #g
+
+      tag_user:
+        tag: :activerecord.models.tag  #g
+        user: :activerecord.models.user  #g
+
+      user:
+        app_users: app_users  #g
+        apps: アプリ  #g
+        authentication_token: authentication_token  #g
+        authentication_ttl: authentication_ttl  #g
+        blocked: ブロック  #g
+        channel_users: channel_users  #g
+        channels: チャネル  #g
+        confirmation_sent_at: confirmation_sent_at  #g
+        confirmation_token: confirmation_token  #g
+        confirmed_at: confirmed_at  #g
+        current_sign_in_at: current_sign_in_at  #g
+        current_sign_in_ip: current_sign_in_ip  #g
+        customer_reports: customer_reports  #g
+        deleted_at: deleted_at  #g
+        display_name: 表示名
+        email: メールアドレス  #g
+        email_opt_in: email_opt_in  #g
+        encrypted_password: encrypted_password  #g
+        family_name: 姓  #g
+        first_name: 名  #g
+        icon: アイコン  #g
+        invitation_accepted_at: invitation_accepted_at  #g
+        invitation_created_at: invitation_created_at  #g
+        invitation_limit: invitation_limit  #g
+        invitation_sent_at: invitation_sent_at  #g
+        invitation_token: invitation_token  #g
+        invited_by: :activerecord.models.invited_by  #g
+        invited_by_type: invited_by_type  #g
+        last_sign_in_at: last_sign_in_at  #g
+        last_sign_in_ip: last_sign_in_ip  #g
+        mobile_number: 電話番号  #g
+        name: 表示名  #g
+        note: ノート  #g
+        offline_at: offline_at  #g
+        online_at: online_at  #g
+        org_users: org_users  #g
+        orgs: チーム  #g
+        remember_created_at: remember_created_at  #g
+        reset_password_sent_at: reset_password_sent_at  #g
+        reset_password_token: パスワード再設定メール  #g
+        role_users: role_users  #g
+        roles: 権限  #g
+        status: ステータス  #g
+        tag_users: tag_users  #g
+        tags: タグ  #g
+        tmp_email: メールアドレス  #g
+        username: username  #g
+        provider: プロバイダ  #g
+        uid: UID  #g
+        user_configs: user_configs  #g
+        user_user_configs: user_user_configs  #g
+        failed_attempts: failed_attempts  #g
+        locked_at: locked_at  #g
+        password_updated_at: password_updated_at  #g
+        providers: providers  #g
+        unlock_token: unlock_token  #g
+        authentication_token_expires_at: authentication_token_expires_at  #g
+        items: 項目
+        questions: questions  #g
+        opportunity_appointments: アポイント  #g
+        opportunity_competitors: 競合情報  #g
+        schedules: schedules  #g
+        answers: answers  #g
+        devices: デバイス  #g
+        full_name: 氏名  #g
+        invitees_csv: CSVファイル  #g
+        inquiry_logs: 反響ログ  #g
+        locale: 言語  #g
+        fixed_phrase_users: fixed_phrase_users  #g
+        fixed_phrases: 定型文  #g
+        last_access_at: 最終アクセス日時  #g
+        user_email_status: :activerecord.models.user_email_status  #g
+        supports_video_chat: supports_video_chat  #g
+        channel_user_unread_messages: channel_user_unread_messages  #g
+        eca_rules: eca_rules  #g
+        password_salt: password_salt  #g
+        providers_facebook: providers_facebook  #g
+        providers_google: providers_google  #g
+        providers_twitter: providers_twitter  #g
+        providers_yahoojp: providers_yahoojp  #g
+        user_authentication_tokens: user_authentication_tokens  #g
+        address: address  #g
+        postal_code: postal_code  #g
+
+      user/user_user_configs:
+        config_value: メンバー設定値  #g
+
+      user_read_message:
+        message: :activerecord.models.message  #g
+        user: :activerecord.models.user  #g
+
+      app_org_config:
+        app: :activerecord.models.app  #g
+        org_config: :activerecord.models.org_config  #g
+
+      org_config:
+        app: :activerecord.models.app  #g
+        config_key: 設定キー  #g
+        deleted_at: deleted_at  #g
+        org_org_configs: org_org_configs  #g
+        orgs: orgs  #g
+
+      org_org_config:
+        org: :activerecord.models.org  #g
+        org_config: :activerecord.models.org_config  #g
+        config_value: 設定値  #g
+
+      user_config:
+        app: :activerecord.models.app  #g
+        config_key: 設定キー  #g
+        deleted_at: deleted_at  #g
+        user_user_configs: user_user_configs  #g
+        users: users  #g
+
+      user_user_config:
+        user: :activerecord.models.user  #g
+        user_config: :activerecord.models.user_config  #g
+        config_value: 設定値  #g
+
+      channel_information:
+        deleted_at: deleted_at  #g
+        key: key  #g
+        value: value  #g
+        channel: :activerecord.models.channel  #g
+        updated_by: :activerecord.models.updated_by  #g
+
+      provider:
+        instance_url: instance_url  #g
+        provider: provider  #g
+        refresh_token: refresh_token  #g
+        token: token  #g
+        token_secret: token_secret  #g
+        uid: UID  #g
+        user: :activerecord.models.user  #g
+        deleted_at: deleted_at  #g
+
+      store:
+        deleted_at: deleted_at  #g
+        channel: :activerecord.models.channel  #g
+
+      white_list:
+        deleted_at: deleted_at  #g
+        ip_address: IPアドレス  #g
+        role: :activerecord.models.role  #g
+        app: :activerecord.models.app  #g
+
+      schedule:
+        ends_at: 終了  #g
+        notifies_before: 通知  #g
+        starts_at: 開始  #g
+        app: :activerecord.models.app  #g
+        location: 場所  #g
+        title: タイトル  #g
+        user: :activerecord.models.user  #g
+        sent_at: 送信日時  #g
+
+      app_icon:
+        icon: アイコン  #g
+        name: 名前  #g
+        app: :activerecord.models.app  #g
+
+      app_role:
+        role: :activerecord.models.role  #g
+        app: :activerecord.models.app  #g
+
+      opportunity_appointment:
+        appointment_type: アポイントメントの種類  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+
+      opportunity_competitor:
+        competitor_name: 競合名  #g
+        competitor_price: 価格  #g
+        competitor_applicant_number: 応募数  #g
+        competitor_hired_number: 採用数  #g
+        competitor_data: 現在提案されている競合データ  #g
+        competitor_image: 競合イメージ  #g
+        opportunity_impression: 商談の感想  #g
+        opportunity_memo: 商談メモ  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+        competitor_image_other: その他競合名  #g
+        competitor_name_other: その他競合イメージ  #g
+
+      question:
+        id: 質問ID  #g
+        type: 質問種類  #g
+        title: 質問タイトル  #g
+        user: 質問者  #g
+        description: 質問補足文  #g
+        answers: answers  #g
+        question_selections: active_record.models.question_selection  #g
+        selection: 選択肢 #g
+        question_recipient: 質問受信者 #g
+        created_at: 質問日時 #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      question_selection:
+        selection: 選択肢  #g
+        question_type: question_type  #g
+
+      question_yes_no:
+        id: 質問ID  #g
+        title: 質問タイトル  #g
+        user: 質問者  #g
+        answers: answers  #g
+        description: 質問補足文  #g
+        question_selections: question_selections  #g
+        question_recipient: 質問受信者 #g
+        question_recipient_count: 質問受信者数 #g
+        created_at: 質問日時 #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      answer:
+        answer_type: answer_type  #g
+        user: :activerecord.models.user  #g
+        answer_text: answer_text  #g
+        question: :activerecord.models.question  #g
+        created_at: 回答日時  #g
+        content: 回答内容  #g
+        count_yes: 回答数（Yes）
+        count_no: 回答数（No）
+        message: :activerecord.models.message  #g
+
+      question_free:
+        description: 補足文  #g
+        question_selections: question_selections  #g
+        title: title  #g
+        user: :activerecord.models.user  #g
+        answers: answers  #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      question_multi:
+        description: 補足文  #g
+        question_selections: question_selections  #g
+        title: タイトル  #g
+        user: :activerecord.models.user  #g
+        answers: answers  #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      question_single:
+        description: 補足文  #g
+        question_selections: "選択肢"  #g
+        title: タイトル  #g
+        user: :activerecord.models.user  #g
+        answers: answers  #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      notification:
+        app_notifications: app_notifications  #g
+        apps: アプリ  #g
+        name: 名前  #g
+
+      app_notification:
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+        notification: :activerecord.models.notification  #g
+
+      device:
+        device_type: デバイス種類  #g
+        device_token: デバイストークン  #g
+        sign_in_at: ログイン日時  #g
+        sign_out_at: ログアウト日時  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+        mobile_push_type: プッシュ通知タイプ  #g
+        multiple: multiple  #g
+        user_authentication_token: :activerecord.models.user_authentication_token  #g
+
+      mobile_push_endpoint:
+        device_type: デバイス種類  #g
+        endpoint: エンドポイント  #g
+        mobile_push_type: プッシュ通知タイプ  #g
+        app: :activerecord.models.app  #g
+        multiple: 複数  #g
+        ssl_certificate: SSL証明書  #g
+        private_key: プライベートキー  #g
+        api_key: APIキー  #g
+        sandbox: サンドボックス  #g
+
+      inquiry_log:
+        org: :activerecord.models.org  #g
+        user: :activerecord.models.user  #g
+        channel: :activerecord.models.channel  #g
+        inquiry_group_cd: inquiry_group_cd  #g
+
+      message_upload_file:
+        upload_file: :activerecord.models.upload_file  #g
+        message: :activerecord.models.message  #g
+
+      question_message:
+        question: :activerecord.models.question  #g
+        message: :activerecord.models.message  #g
+
+      upload_file:
+        attachment_file_name: attachment_file_name  #g
+        attachment_content_type: attachment_content_type  #g
+        attachment_file_size: attachment_file_size  #g
+        attachment_updated_at: attachment_updated_at  #g
+        message: :activerecord.models.message  #g
+        message_upload_file: :activerecord.models.message_upload_file  #g
+
+      recipe:
+        app: :activerecord.models.app  #g
+        title: タイトル  #g
+        description: 説明  #g
+        enabled: 有効  #g
+        recipe_trigger: :activerecord.models.recipe_trigger  #g
+        recipe_conditions: レシピ条件  #g
+        recipe_actions: レシピアクション  #g
+        recipe_histories: レシピ履歴  #g
+
+      recipe/recipe_conditions:
+        condition_type: 条件種別  #g
+
+      recipe/recipe_conditions/recipe_condition_datetime:
+        repeat_type: 繰り返し種別  #g
+        repeat_detail: 繰り返し詳細  #g
+        condition_time: 時間  #g
+        timezone_offset: timezone_offset  #g
+
+      recipe/recipe_conditions/recipe_condition_org:
+        org: :activerecord.models.org  #g
+
+      recipe/recipe_actions:
+        action_type: アクション種別  #g
+
+      recipe/recipe_actions/recipe_action_email:
+        email_type: Eメール  #g
+
+      recipe/recipe_actions/recipe_action_message:
+        user: :activerecord.models.user  #g
+        message_type: メッセージタイプ  #g
+        message_content: メッセージ内容  #g
+        delay_seconds: 遅延時間(秒)  #g
+
+      recipe_trigger:
+        recipe: :activerecord.models.recipe  #g
+        trigger_type: トリガータイプ  #g
+
+      recipe_condition:
+        recipe: :activerecord.models.recipe  #g
+        condition_type: 条件種別  #g
+        recipe_condition_datetime: :activerecord.models.recipe_condition_datetime  #g
+        recipe_condition_org: :activerecord.models.recipe_condition_org  #g
+
+      recipe_condition_datetime:
+        recipe_condition: :activerecord.models.recipe_condition  #g
+        repeat_type: 繰り返し種別  #g
+        repeat_detail: 繰り返し詳細  #g
+        condition_time: 時間  #g
+        timezone_offset: timezone_offset  #g
+
+      recipe_condition_org:
+        recipe_condition: :activerecord.models.recipe_condition  #g
+        org: :activerecord.models.org  #g
+
+      recipe_condition_role:
+        recipe_condition: :activerecord.models.recipe_condition  #g
+        role: :activerecord.models.role  #g
+
+      recipe_condition_not_access:
+        not_access_months: アクセスしていない期間(月)  #g
+        recipe_condition: :activerecord.models.recipe_condition  #g
+
+      recipe_action:
+        recipe: :activerecord.models.recipe  #g
+        action_type: アクション種別  #g
+        recipe_action_email: :activerecord.models.recipe_action_email  #g
+        recipe_action_message: :activerecord.models.recipe_action_message  #g
+        recipe_action_delete_user: :activerecord.models.recipe_action_delete_user  #g
+
+      recipe_action_email:
+        recipe_action: :activerecord.models.recipe_action  #g
+        email_type: Eメール  #g
+
+      recipe_action_message:
+        recipe_action: :activerecord.models.recipe_action  #g
+        user: :activerecord.models.user  #g
+        message_type: メッセージタイプ  #g
+        message_content: メッセージ内容  #g
+        delay_seconds: 遅延時間(秒)  #g
+
+      recipe_action_delete_user:
+        recipe_action: :activerecord.models.recipe_action  #g
+        delete_user_type: ユーザ削除タイプ  #g
+        recipe_action_delete_user_not_access: :activerecord.models.recipe_action_delete_user_not_access  #g
+
+      recipe_action_delete_user_not_access:
+        recipe_action_delete_user: :activerecord.models.recipe_action_delete_user  #g
+        recipe_action_delete_user_not_access_roles: recipe_action_delete_user_not_access_roles  #g
+        not_access_months: アクセスしていない期間(月) #g
+        roles: ロール  #g
+
+      recipe_action_delete_user_not_access_role:
+        recipe_action_delete_user_not_access: :activerecord.models.recipe_action_delete_user_not_access  #g
+        role: :activerecord.models.role  #g
+
+      recipe_history:
+        recipe: :activerecord.models.recipe  #g
+        started_at: 開始日時  #g
+        ended_at: 終了日時  #g
+        success: 成功  #g
+
+      funnel:
+        channel: :activerecord.models.channel  #g
+        order: 表示順  #g
+        name: ファネル名  #g
+        channel_count: 件数  #g
+        app: :activerecord.models.app  #g
+        channels: channels  #g
+
+      coupon:
+        id: id
+        duration: duration
+        duration_in_months: duration in months
+
+        off: off
+        choose_off: Choose percent off or amount off
+        percent_off: percent off
+        amount_off: amount off
+        show: show
+        months: months
+        created: created
+        currency: currency
+        valid: valid
+        repeating: repeating
+        forever: forever
+        once: once
+        choose_duration: Choose duration
+        error_id: id existed
+        error_choose_off: Please choose percent off or amount off
+        error_duration_in_months: Error duration in months
+        error_choose_duration: Please choose duration
+        error_percent_off: Error Percent off Error
+        error_amount_off: Error Amount off
+        create_successfully: Create successfully
+        edit_successfully: Edit successfully
+        edit_fails: Edit fails
+        show_more: show more
+
+      fixed_phrase:
+        content: 内容  #g
+        content_type: 内容タイプ  #g
+        fixed_phrase_orgs: fixed_phrase_orgs  #g
+        fixed_phrase_users: fixed_phrase_users  #g
+        orgs: orgs  #g
+        users: users  #g
+        apps: apps  #g
+        description: description  #g
+        fixed_phrase_apps: fixed_phrase_apps  #g
+        messages: messages  #g
+        owner_user: :activerecord.models.owner_user  #g
+        eca_actions: eca_actions  #g
+        eca_conditions: eca_conditions  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+
+      fixed_phrase_org:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        org: :activerecord.models.org  #g
+
+      fixed_phrase_user:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+
+      widget_config:
+        app: :activerecord.models.app  #g
+        org: :activerecord.models.org  #g
+        default_style: 会話画面表示形式  #g
+        hide_times: 表示されない時間  #g
+        allowed_url: 許可するURL  #g
+        register_params: 登録するパラメーター  #g
+        first_name_field_required: 名前  #g
+        family_name_field_required: 名字  #g
+        email_field_required: メール  #g
+        mobile_number_field_required: 携帯電話番号  #g
+        address_field_required: 住所  #g
+        font_size: 文字サイズ  #g
+        save_the_configurations: Save the configurations
+        description1: 説明1  #g
+        description2: 説明2  #g
+        privacy_policy_url: 個人情報保護ポリシーURL  #g
+        start_button: 会話を開始するボタンの文言  #g
+        terms_of_service_url: 利用規約URL  #g
+        title: タイトル  #g
+        input_items: input_items  #g
+
+      user_email_status:
+        user: :activerecord.models.user  #g
+        status: ステータス  #g
+        reject_reason: 拒否理由  #g
+        reject_detail: 拒否詳細  #g
+
+      channel_note:
+        channel: :activerecord.models.channel  #g
+        note: :activerecord.models.note  #g
+
+      note:
+        channel_note: :activerecord.models.channel_note  #g
+        content: content  #g
+        channel: :activerecord.models.channel  #g
+
+      always:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      assign_user:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      channel_user_unread_message:
+        channel: :activerecord.models.channel  #g
+        last_read_message: last_read_message  #g
+        unread_messages: unread_messages  #g
+        user: :activerecord.models.user  #g
+
+      eca_action:
+        delay_seconds: delay_seconds  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      eca_condition:
+        condition_string: condition_string  #g
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      eca_event:
+        eca_rule: :activerecord.models.eca_rule  #g
+        rule_description: rule_description  #g
+
+      eca_rule:
+        belongs_to: belongs_to  #g
+        eca_actions: eca_actions  #g
+        eca_conditions: eca_conditions  #g
+        eca_event: :activerecord.models.eca_event  #g
+        enabled: enabled  #g
+        org: :activerecord.models.org  #g
+        owner_user: :activerecord.models.owner_user  #g
+        title: title  #g
+        useage_type: useage_type  #g
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+
+      fixed_phrase_app:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        app: :activerecord.models.app  #g
+
+      in_app_custom_event:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_app_focus_to_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_app_open_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_close_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_fixed_sticker_action_selected:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_funnel_moved:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_funnel_moved_from:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_funnel_moved_to:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_open_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_receive_message:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_receive_sticker:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_recipe_replied:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_sent_message:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_sent_sticker:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_sticker_action_selected:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_triggered_by_recipe:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      locations:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      move_funnel:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      no_response:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      out_app_scheduled_batch:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      payment:
+        owner_user: :activerecord.models.owner_user  #g
+        app: :activerecord.models.app  #g
+
+      response_match:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      send_message:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      send_suggestion:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      shortened_url:
+        clicked: clicked  #g
+        long_url: long_url  #g
+        short_url: short_url  #g
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+
+      specified_funnel_from:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_funnel_position:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_funnel_to:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_time_elapsed:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_time_range:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      string_match:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      suggestion:
+        belongs_to: belongs_to  #g
+        eca_actions: eca_actions  #g
+        eca_conditions: eca_conditions  #g
+        eca_event: :activerecord.models.eca_event  #g
+        enabled: enabled  #g
+        org: :activerecord.models.org  #g
+        owner_user: :activerecord.models.owner_user  #g
+        title: title  #g
+        useage_type: useage_type  #g
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+
+      trigger_recipe:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      user_authentication_token:
+        authentication_token: authentication_token  #g
+        authentication_token_expires_at: authentication_token_expires_at  #g
+        authentication_ttl: authentication_ttl  #g
+        device: :activerecord.models.device  #g
+        user: :activerecord.models.user  #g
+        web_push_subscription: :activerecord.models.web_push_subscription  #g
+
+      web_push_subscription:
+        endpoint: endpoint  #g
+        keys: keys  #g
+        sign_in_at: sign_in_at  #g
+        sign_out_at: sign_out_at  #g
+        user: :activerecord.models.user  #g
+        user_authentication_token: :activerecord.models.user_authentication_token  #g
+        app: :activerecord.models.app  #g
+
+      location_history:
+        message: :activerecord.models.message  #g
+        user: :activerecord.models.user  #g
+        location: location  #g
+
+      delivery:
+        all_count: 件数  #g
+        chat_count: チャット対象件数  #g
+        delivery_details: delivery_details  #g
+        org: :activerecord.models.org  #g
+        uploaded_at: アップロード日時  #g
+        deleted_at: deleted_at  #g
+        deliveries_csv: CSVファイル  #g
+        file_name: ファイル名  #g
+
+      delivery_detail:
+        delivery: :activerecord.models.delivery  #g
+        delivery_status: ステータス  #g
+        mobile_number: 電話番号  #g
+        slip_number: 伝票番号  #g
+        user: :activerecord.models.user  #g
+        deleted_at: deleted_at  #g
+        aggregate_date: 集計日  #g
+        delivery_date: 配達日  #g
+        delivery_time: 配達時間  #g
+
+      fixed_phrase_eca_action:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        eca_action: :activerecord.models.eca_action  #g
+
+      fixed_phrase_eca_condition:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        eca_condition: :activerecord.models.eca_condition  #g
+
+      aggregation:
+        app: :activerecord.models.app  #g
+        day: day  #g
+        month: month  #g
+        number_of_available_chat_users: 利用可能なチャットユーザー数  #g
+        year: year  #g
+
+      plan:
+        apps: apps  #g
+        contract_interval: contract_interval  #g
+        deleted_at: deleted_at  #g
+        number_of_available_chat_users_per_month: number_of_available_chat_users_per_month  #g
+        uid: uid  #g
+
+      delivery_pattern:
+        deleted_at: deleted_at  #g
+        delivery_pattern_details: delivery_pattern_details  #g
+        name: 名前  #g
+        org: :activerecord.models.org  #g
+        selected: 選択  #g
+        delivery_patterns_csv: CSVファイル  #g
+
+      delivery_pattern_detail:
+        deleted_at: deleted_at  #g
+        delivery_pattern: :activerecord.models.delivery_pattern  #g
+        admin_user: :activerecord.models.admin_user  #g
+        guest_user: :activerecord.models.guest_user  #g
+
+      company:
+        apps: apps  #g
+        deleted_at: deleted_at  #g
+        name: 会社名  #g
+        phone_number: 電話番号  #g
+
+  users:
+    payments:
+      new_app:
+        title: アプリケーション作成
+        description_html: "現在あなたが所属しているアプリケーションはありません。<br/>新たにChatCenter iOを利用するアプリケーションを作成しましょう。"
+        company_name: 会社名
+        create_application: アプリケーションを作成
+        create_app: アプリ作成
+        phone_number: 電話番号
+
+      create_app:
+        notice: アプリを追加しました。
+
+  admin:
+    fixed_phrases:
+      index:
+        title: 定型メッセージ
+
+    coupons:
+      show:
+        confirm: よろしいですか？
+
+    apps:
+      index:
+        title: アプリ
+        confirm: よろしいですか？
+
+      show:
+        title: アプリ詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: アプリ設定
+        advance_setting: 詳細設定
+        integration_setting: 連携設定
+        subtitle: パラメーターを編集する
+        allow_nomessage: チャンネル(チャットルーム)が作られた(開かれた)とき
+        not_allow_nomessage: カスタマーが最初のメッセージを送信したとき
+        notificaion:
+          mail: メール
+          web_push: Web(Chrome)
+          mobile_push: モバイル
+          sms: SMS
+
+      update:
+        title: アプリ設定する
+        notice: アプリ設定を更新しました。
+
+      new:
+        title: アプリを追加する
+
+      create:
+        title: アプリを追加する
+        notice: アプリを追加しました。
+
+      destroy:
+        notice: アプリを削除しました。
+
+      disable:
+        notice: アプリを無効にしました。
+
+      cancel_subscription:
+        notice: アプリの購読を中止しました。
+
+    customer_reports:
+      index:
+        title: カスタマーレポート
+
+      show:
+        title: カスタマーレポート詳細
+
+    customers:
+      index:
+        title: お客様を管理する
+        confirm: よろしいですか？
+
+      show:
+        title: お客様詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: お客様を編集する
+
+      update:
+        title: お客様を編集する
+        notice: お客様を更新しました。
+
+    orgs:
+      index:
+        title: チームとメンバーを管理する
+        confirm: よろしいですか？
+
+      show:
+        title: "%{org_kind}詳細"
+        confirm: よろしいですか？
+
+      edit:
+        title: "%{org_kind}を編集する"
+
+      update:
+        title: "%{org_kind}を編集する"
+        notice: チームを更新しました。
+
+      new:
+        title: "%{org_kind}を追加する"
+
+      create:
+        title: "%{org_kind}を追加する"
+        notice: チームを追加しました。
+
+      destroy:
+        notice: チームを削除しました。
+
+    privileges:
+      index:
+        title: 権限
+        confirm: よろしいですか？
+
+      show:
+        title: 権限詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: 権限を編集する
+
+      update:
+        title: 権限を編集する
+        notice: 権限を更新しました。
+
+      new:
+        title: 権限を追加する
+
+      create:
+        title: 権限を追加する
+        notice: 権限を追加しました。
+
+      destroy:
+        notice: 権限を削除しました。
+
+    reports:
+      index:
+        title: レポート
+
+    stickers:
+      index:
+        title: 利用許可設定
+
+      update_sticker_apps:
+        title: ウィジェットを編集する
+        notice: 利用許可設定を更新しました。
+
+    suggestions:
+      index:
+        title: サジェスチョン
+
+      me:
+        title: サジェスチョン
+
+    roles:
+      index:
+        title: ロール
+        confirm: よろしいですか？
+
+      show:
+        title: ロール詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: ロールを編集する
+
+      update:
+        title: ロールを編集する
+        notice: ロールを更新しました。
+
+      new:
+        title: ロールを追加する
+
+      create:
+        title: ロールを追加する
+        notice: ロールを追加しました。
+
+      destroy:
+        notice: ロールを削除しました。
+
+    users:
+      index:
+        title: メンバー
+        confirm: よろしいですか？
+
+      show:
+        title: プロフィール
+        confirm: よろしいですか？
+
+      edit:
+        title: メンバーを編集する
+
+      update:
+        title: メンバーを編集する
+        notice: メンバーを更新しました。
+
+      new:
+        title: メンバーを追加する
+
+      create:
+        title: メンバーを追加する
+        notice: メンバーを追加しました。
+
+      destroy:
+        notice: メンバーを削除しました。
+
+    white_lists:
+      index:
+        title: ホワイトリスト
+        confirm: よろしいですか？
+
+      show:
+        title: ホワイトリスト詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: ホワイトリストを編集する
+
+      update:
+        title: ホワイトリストを編集する
+        notice: ホワイトリストを更新しました。
+
+      new:
+        title: ホワイトリストを追加する
+
+      create:
+        title: ホワイトリストを追加する
+        notice: ホワイトリストを追加しました。
+
+      destroy:
+        notice: ホワイトリストを削除しました。
+
+    opportunity_appointments:
+      index:
+        title: 商談ナビ
+        confirm: よろしいですか？
+
+      show:
+        title: 商談ナビ
+        confirm: よろしいですか？
+
+      edit:
+        title: 商談ナビ
+
+      update:
+        title: 商談ナビ
+        notice: アポイントを更新しました。
+
+      new:
+        title: 商談ナビ
+
+      create:
+        title: 商談ナビ
+        notice: アポイントを追加しました。
+
+      destroy:
+        notice: アポイントを削除しました。
+
+    opportunity_competitors:
+      index:
+        title: 商談ナビ
+        confirm: よろしいですか？
+
+      show:
+        title: 商談ナビ
+        confirm: よろしいですか？
+
+      edit:
+        title: 商談ナビ
+
+      update:
+        title: 商談ナビ
+        notice: アポイントを更新しました。
+
+      new:
+        title: 商談ナビ
+
+      create:
+        title: 商談ナビ
+        notice: アポイントを追加しました。
+
+      destroy:
+        notice: アポイントを削除しました。
+
+    schedules:
+      index:
+        title: 予定を登録
+        confirm: よろしいですか？
+
+      show:
+        title: 予定を登録
+        confirm: よろしいですか？
+
+      edit:
+        title: 予定を登録
+
+      update:
+        title: 予定を登録
+        notice: 予定を更新しました。
+
+      new:
+        title: 予定を登録
+
+      create:
+        title: 予定を登録
+        notice: 予定を追加しました。
+
+      destroy:
+        notice: 予定を削除しました。
+
+    recipes:
+      index:
+        title: レシピ
+        confirm: よろしいですか？
+
+      show:
+        title: レシピ詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: レシピを編集する
+
+      update:
+        title: レシピを編集する
+        notice: レシピを更新しました。
+
+      new:
+        title: レシピを追加する
+
+      create:
+        title: レシピを追加する
+        notice: レシピを追加しました。
+
+      destroy:
+        notice: レシピを削除しました。
+
+    recipe_steps:
+      show:
+        title: レシピを追加する
+
+      update:
+        title: レシピを追加する
+        notice: レシピを追加しました。
+
+    ecarules:
+      index:
+        title: 自動化
+
+      me:
+        title: 自動化
+
+      show:
+        title: 自動化ルール詳細
+
+      edit:
+        title: 自動化ルールを編集する
+
+      update:
+        title: 自動化ルールを編集する
+        notice: 自動化ルールを更新しました。
+
+      new:
+        title: 自動化ルールを追加する
+
+      create:
+        title: 自動化ルールを追加する
+        notice: 自動化ルールを追加しました。
+
+      destroy:
+        notice: 自動化ルールを削除しました。
+
+    widget_configs:
+      index:
+        title: ウィジェット設定
+        confirm: よろしいですか？
+
+      show:
+        title: ウィジェット設定詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: ウィジェット設定を編集する
+
+      update:
+        title: ウィジェット設定を編集する
+        notice: ウィジェット設定を更新しました。
+
+      new:
+        title: ウェブサイトへの埋込方法を設定する
+
+      create:
+        title: ウィジェット設定を追加する
+        notice: ウィジェット設定を追加しました。
+
+      destroy:
+        notice: ウィジェット設定を削除しました。
+
+      form:
+        first_name: 名
+        family_name: 姓
+        email: Eメール
+        mobile_number: 携帯電話番号
+        address: 住所
+        display: 表示
+        required: 必須
+
+    add_channels:
+      web:
+        title: ウェブサイトに埋め込む(ウィジェット)コードの取得
+
+      ios:
+        title: iOSプロジェクトに導入するコードの取得
+
+      android:
+        title: Androidプロジェクトに導入するコードの取得
+
+    funnels:
+      index:
+        title: ファネル
+        confirm: よろしいですか？
+
+      show:
+        title: ファネル詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: ファネルを編集する
+
+      update:
+        title: ファネルを編集する
+        notice: ファネルを更新しました。
+
+      new:
+        title: ファネルを追加する
+
+      create:
+        title: ファネルを追加する
+        notice: ファネルを追加しました。
+
+      destroy:
+        notice: ファネルを削除しました。
+
+    deliveries:
+      index:
+        title: 配達情報
+        confirm: よろしいですか？
+
+      show:
+        title: 配達情報詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: 配達情報を編集する
+
+      update:
+        title: 配達情報を編集する
+        notice: 配達情報を更新しました。
+
+      update_pattern:
+        title: 配達パターンを編集する
+        notice: 配達パターンを更新しました。
+
+      new:
+        title: 配達情報を追加する
+
+      create:
+        title: 配達情報を追加する
+        notice: 配達情報を追加しました。
+
+      destroy:
+        notice: 配達情報を削除しました。
+
+      destroy_pattern:
+        notice: 配達パターンを削除しました。
+
+      upload_files:
+        title: 配達情報
+        notice: 配達情報をアップロードしました。
+        confirm: よろしいですか？
+
+      upload_pattern_files:
+        title: 配達情報
+        notice: 配達パターンをアップロードしました。
+        confirm: よろしいですか？
+
+    payments:
+      show:
+        title: プラン情報
+        plan_name: プラン名
+        enterprise: エンタープライズ
+        contract_period: 契約期間
+        next_renewal_date: 次回更新日
+        contract_amount: 月額料金
+        number_of_available_chat_users_per_month: 利用可能なチャットユーザー数 (月間)
+        number_of_chat_users_per_month: 利用されたチャットユーザー数 (月間)
+        payment_information: 支払い情報
+        invoice_payment: 請求書払い
+        unlimited: 無制限
+        trial: トライアル
+        growth_monthly: グロースプラン (月次更新)
+        growth_annual: グロースプラン (年間契約)
+        the_end_of_the_trial_is_approaching: トライアル終了が近づいています
+        plan_update_date_is_approaching: プランの更新日が近づいています
+        free_for_trial_period: トライアル期間につき無料
+        available_users_unlimited_campaign: 利用可能ユーザー無制限キャンペーン中！
+
+      edit_card:
+        title: 支払い情報
+        card_number: カード番号
+        expires: 有効期限
+        year: 年
+        month: 月
+        security_code: セキュリティコード
+        edit_card: 支払い情報を変更
+
+      update_card:
+        title: 支払い情報
+        notice: 支払い情報を更新しました。
+
+    mobile_push_endpoints:
+      index:
+        title: プッシュ通知
+        confirm: よろしいですか？
+
+      show:
+        title: プッシュ通知詳細
+        confirm: よろしいですか？
+
+      edit:
+        title: プッシュ通知を編集する
+
+      update:
+        title: プッシュ通知を編集する
+        notice: プッシュ通知を更新しました。
+
+      new:
+        title: プッシュ通知を追加する
+
+      create:
+        title: プッシュ通知を追加する
+        notice: プッシュ通知を追加しました。
+
+      destroy:
+        notice: プッシュ通知を削除しました。
+
+    root:
+      index:
+        title: ダッシュボード
+
+  link:
+    New: 追加
+    Show: 表示
+    Edit: 編集
+    Destroy: 削除
+    Back: <i class="fa fa-chevron-left" aria-hidden="true"></i> 前画面
+    home: ホーム
+    open_chat: チャット画面を開く
+    invite: 招待
+    report: レポート
+    sign_out: ログアウト
+    select_app: アプリを選ぶ
+    add_member: +メンバーを追加する
+    invite_member: +メンバーを招待する
+    invite_from_csv: CSVから招待する
+    account: アカウント
+    dashboard: ダッシュボード
+    back_to_inbox: チャットに戻る
+    setting: 設定
+    disable: 無効
+    cancel_subscription: 購読中止
+
+  button:
+    Create: 新規登録実行
+    Update: 更新実行
+    add_sticker_app: ウィジェット追加
+    add_app_icon: アプリアイコン追加
+    add_org_config: チーム設定追加
+    add_user_config: メンバー設定追加
+    add_funnel: ファネル追加
+    add_recipe_condition: レシピ条件追加
+    add_recipe_condition_datetime: レシピ条件日時追加
+    add_recipe_condition_org: レシピ条件チーム追加
+    add_recipe_action: レシピアクション追加
+    add_recipe_action_email: レシピアクションEメール追加
+    add_recipe_action_message: レシピアクションメッセージ追加
+    add_recipe_action_delete_user: レシピアクションユーザ削除追加
+    add_recipe_action_delete_user_not_access: レシピアクションアクセスがないユーザ削除追加
+    add_fixed_phrase: 定型文追加
+    add_mobile_push_endpoint: プッシュ通知エンドポイント追加
+    Save: 登録
+    New: 新規登録
+    next: 次へ
+    create_trigger: トリガーを登録
+    create_condition: 条件を登録
+    create_action: アクションを登録
+    create_recipe: レシピを登録
+    create_coupon: Create a coupon
+    choose_photo: 写真を選択
+    ok: OK
+
+  message:
+    SaveError: 件のエラーが発生しました。
+    DeleteConfirm: 削除しますか？
+
+  app: :activerecord.models.app  #g
+  config_value: config_value  #g
+
+  label:
+    aggregate: aggregate
+    spam: スパム
+    offensive: 攻撃的
+    other: その他
+    index: 検索
+    coupon: Coupons
+    show: 詳細
+    create: 追加
+    update: 編集
+    edit: 編集
+    destroy: 削除
+    api_index: API検索
+    api_show: API詳細
+    api_create: API追加
+    api_update: API編集
+    api_destroy: API削除
+    report: レポート
+    invite: 招待
+    batch_invite: 一括招待
+    me: 自分の情報
+    subscribe: 購読
+    unsubscribe: 購読取消
+    assign: アサイン
+    unassign: アサイン取消
+    reply: 返信
+    admin: 管理者
+    create_parent: 親を作成
+    org: チーム
+    role: ロール
+    mine: 自分のもの
+    close: 閉じる
+    create_all: 一斉送信
+    create_answers: 複数作成
+    widget: ウィジェット
+    copy_to_clipboard: クリップボードにコピー
+    copied: コピーしました
+    allow: 許可する
+    deny: 許可しない
+    add_picture: 写真を追加
+    edit_picture: 写真を変更
+    kind_of_member: メンバーの種類
+    orgs_for_invite: 招待先のチーム
+    is_admin: 管理権限の有無
+    exists: 有り
+    not_exists: 無し
+    registerd_email: 登録メールアドレス
+    report: 統計
+    sticker: 利用許可設定
+    funnel: ファネル
+    recipe: レシピ
+    org: チーム
+    customer: お客様
+    chat: チャット
+    dashboard: ダッシュボード
+    parent_org: 法人
+    child_org: 店舗
+    invite_superorgadmin: "%{org_kind}(%{org_name})の管理者"
+    invite_orgadmin: "%{org_kind}(%{org_name})の管理者"
+    invite_normal: "%{org_kind}(%{org_name})のメンバー"
+    invite_developer: "%{org_kind}(%{org_name})の開発者"
+    org_name: "%{org_kind}名"
+    org_id: "%{org_kind}ID"
+    add_org: "%{org_kind}を追加する"
+    edit_org: "%{org_kind}を編集する"
+    show_org: "%{org_kind}詳細"
+    create_new_team: "チームを新規作成する"
+    welcome_message: "ChatCenter for %{app_name} へようこそ！"
+    do_not_display_next: 次回からこのメッセージを表示しない
+    member_name: 所属メンバー名
+    state: 状態
+    online: Online
+    offline: Offline
+    options: オプション
+    status_member: status
+    sup_title_member: チームメンバーの管理
+    sup_title_team_members: チームの新規作成と管理ができます。
+    sup_title_customers: お客様を管理できます。
+    superadmin: 管理者
+    appadmin: 管理者(アプリ)
+    superorgadmin: 管理者(法人)
+    orgadmin: 管理者(店舗)
+    normal: メンバー
+    teamadmin: 管理者(チーム)
+    teammember: メンバー(チーム)
+    sales: 営業
+    developer: 開発者
+    manage_orgs: 法人、店舗を管理する
+    inbox: 受信トレイ
+    inviting: 招待中
+    select_appointment_type: アポイントの種類を選択
+    show_children: 子を表示
+    update_uid: UIDを更新
+    re_invite: 再招待
+    show_email: メールアドレスを表示
+    follow: フォロー
+    unfollow: アンフォロー
+    download: ダウンロード
+    upload: アップロード
+    account: アカウント
+    update_user: 更新者
+    add_channel: チャネル追加
+    website: ウェブサイト
+    ios: iOS App
+    android: Android App
+    obtain_code: コードの取得
+    configure: 詳細設定
+    accelerate_efficiency: 効率化
+    manage: 管理
+    analyze: 分析
+    setting: 設定
+    app_setting: アプリ設定
+    platform_setting: プラットフォーム設定
+    manage_role: ロール
+    manage_privilege: 権限
+    manage_white_list: ホワイトリスト
+    org_user: チームとメンバー
+    fixed_phrase: 定型メッセージ
+    ecarules: 自動化
+    suggestion: サジェスチョン
+    or_add_a_new_team: 新規チームを作成する
+    user_edit: プロフィール設定
+    placeholder_address: 住所
+    placeholder_phone: チーム電話番号
+    placeholder_name: チーム名
+    placeholder_id: チームID
+    placeholder_user_mail: メールアドレス
+    placeholder_first_name: 名
+    placeholder_last_name: 姓
+    placeholder_display_name: 表示名
+    placeholder_user_phone: 電話番号
+    placeholder_user_pass: パスワード
+    placeholder_user_pass_confrimation: 確認用パスワード
+    placeholder_mail_address: メールアドレス
+    default_for_all_the_team: 全チーム共通設定
+    menu:
+      title: メニュー
+      switch: スイッチ
+      inbox: 受信箱
+      dashboard: ダッシュボード
+      platform_integrations: 導入
+      ios_app: iOSアプリ
+      android_app: Androidアプリ
+      website: ウェブサイト
+      efficiency: 効率化
+      saved_messages: 定型ウィジェット
+      two_tap_messages: 利用許可設定
+      suggestions: サジェスチョン
+      automations: 自動化
+      management: 管理
+      team_and_members: チームとメンバー
+      customers: お客様
+      deliveries: 配達情報
+      delivery_patterns: 配達パターン
+      analytics: 分析
+      funnels: ファネル
+      statistics: 統計
+      profile_settings: プロフィール
+      app_settings: アプリ設定
+      manage_mobile_push_endpoints: プッシュ通知
+      plan_info: プラン情報
+      platform_settings: プラットフォーム設定
+      manage_roles: ロール管理
+      manage_privileges: 権限管理
+      manage_whitelists: ホワイトリスト管理
+      sign_out: ログアウト
+      settings: 設定
+      active: 最終アクセス
+      today: 今日
+      day_ago: 日前
+      days_ago: 日前
+
+    appointment_type:
+      new: 新規アポイント
+      competition: 競合コンペ
+      other: とりあえず行きます
+
+    broadcast_message: メッセージ（一斉送信）
+    broadcast_question: 質問（一斉送信）
+
+    business_type:
+      btoc: B to C
+      btobtoc: B to B to C
+      team: TEAM
+
+    take_appointment: アポ入ります！
+    select_competitor_name: 競合名を選択
+    input_data: データを入力
+    competitor_media_image: その他競合メディアのイメージ
+    this_opportunity_impression: 今回の商談の感想
+    competitor:
+      baitoru: バイトル
+      mynavi_baito: マイナビバイト
+      an: an
+      arukita: アルキタ
+      none: なし
+
+    input_other: その他はこちらに入力
+    latest_competitor_publish: 直近競合掲載
+    input_proposal_information: 今受けている提案についての情報があれば記入
+    competitor_image:
+      cheap: 価格が安い
+      publish_until_employment: 採用するまで掲載できる
+      great_salesman: 営業マンが素敵
+      certain_attrctiong: 確実に人が集まる
+      media_promotion: メディアのプロモーションに強い
+
+    opportunity_impression:
+      bad: 厳しい！
+      poor: 反応薄め
+      average: ぼちぼち
+      good: 好感触！
+      excellent: バッチリ！
+
+    message_status:
+      title: 送信状態
+      sent: 配信完了
+      opened: 開封済み
+
+    input_other_memo: その他メモはこちらに入力
+    save_and_exit: 記録して終了
+    list_schedules: 登録済みのスケジュール
+    before_minutes: "%{minutes}分前"
+    alfred_welcome_message1: "Hi %{name}, welcome to ALFRED. I am here to help you find best restaurants in Tokyo, Japan."
+    alfred_welcome_message2: "Open during 10:00am-06:00pm. Sat, Sun, Japanese National Holiday Closed."
+    alfred_welcome_message3: "How can I help you?"
+    required: 必須
+    inquiry_log: 反響ログ
+    message_log: 会話ログ
+    output_csv: CSV形式でダウンロードする
+    from_date: 開始日
+    to_date: 終了日
+    row_number: "%{row} 行目"
+    change: 変更
+    select_file: ファイル選択
+    remove: 削除
+    resend: 再送
+    no_dashes: ハイフンなし
+    conversations: 会話数
+
+    trigger_type:
+      batch: バッチ
+      create_channel: チャネル作成
+      update_channel_information: 問い合わせ情報更新
+
+    condition_type:
+      datetime: 日時
+      always: 常に
+      org: :activerecord.models.org
+
+    repeat_type:
+      every_day: 毎日
+      every_week: 毎週
+      every_month: 毎月
+
+    action_type:
+      send_email: Eメールを送る
+      send_message: メッセージを送る
+      delete_user: ユーザを削除する
+
+    email_type:
+      unread_channels: 未読の問い合わせ
+      receive:
+        unread_channels: チャット対応状況報告メール配信
+
+    delete_user_type:
+      not_access: アクセスがない
+
+    status:
+      unassigned: 担当者なし
+
+    message_type:
+      message: メッセージ
+      question: 質問
+
+    channel:
+      assignee: 担当者
+
+    message_log_csv:
+      parent_org_id: 法人ID
+      child_org_id: 店舗ID
+      channel_id: チャネルID
+      message_id: メッセージID
+      message_user_id: 発言者ID
+      message_user_name: 発言者名
+      sent_at: 日時
+      message_type: メッセージタイプ
+      message_content: メッセージ内容
+      channel_informations: チャネル情報
+      unread: 未読
+      read: 既読
+      read_at: 既読日時
+      property_name: 物件名
+      room_number: 部屋番号
+      price: 価格
+      address: 住所
+      property_code: 物件コード
+      url: URL
+      deleted_user: "***削除済みユーザ***"
+      guest_user: "***ゲスト***"
+      agent_user: "***エージェント***"
+      sent_image: 画像送信
+      sent_pdf: PDF送信
+      sent_suggestion: サジェスチョン送信
+      sent_other: その他送信
+
+    failed_sending_file: ファイルのサイズは20MB以下にしてください。
+
+    mobile_push_type:
+      amazon_sns: Amazon SNS
+
+    device_type:
+      ios: iOS
+      android: Android
+
+    locale:
+      ja: 日本語
+      en: 英語
+
+    delivery_status:
+      before_check: チェック前
+      not_have_channel: チャット対象外
+      before_delivery: 配達前
+      on_delivery: 配達中
+      move_back: 持戻（ご不在）
+      delivery_completed: 配達完了
+      delivery_canceled: 中止
+
+    password_patten: "9文字以上128文字以下で1文字以上の数字、アルファベットがそれぞれ含まれていること"
+    password_confirmation_patten: "パスワードと一致しません"
+    all_items_required: "※下記の項目は全て必須入力です"
+    enter_valid_email_address: 正しいEメールアドレスを入力してください
+    new_card: 新規カード情報
+    not_selected: 選択なし
+
+  answer_text: answer_text  #g
+  answers: answers  #g
+  call:
+    close: 閉じる
+    hangup: 終了
+
+  mailer:
+    assigned_to_channel:
+      subject: "%{app_name} チャットセンターで担当者になりました。"
+      hello: "%{recipient}さん、こんにちは。"
+      someone_assigned_you: "あなたは、%{app_name}・チャットセンター上において、お客様との会話の担当者になりました。"
+      accept: "こちらのページにて、お客様の質問に回答できます。"
+      sender: "%{app_name}・チャットセンターから送信"
+
+    created_channel:
+      subject: "%{app_name} チャットセンターに新しいお客様から問い合わせがあります。"
+      hello: "%{recipient}さん、こんにちは。"
+      someone_created_channel: "%{org_name}に新しいお客様から問い合わせがありました。"
+      accept: "こちらのページから、お客様に返信できます。"
+      sender: "%{app_name}・チャットセンターから送信"
+
+    received_message:
+      subject: "%{app_name} チャットセンターでメッセージを受信しました。"
+      hello: "%{recipient}さん、こんにちは。"
+      you_received_message: "あなたは、%{sender_name}様からメッセージを受信しました。"
+      accept: "こちらのページから、お客様に返信できます。"
+      sender: "%{app_name}・チャットセンターから送信"
+
+    unread_messages:
+      subject: "%{target_name} : 未確認チャットレポート"
+      today_unread_messages_count: "本日 %{count}件の未確認メッセージがあります。"
+      today_unread_messages_nothing: "本日未確認のメッセージはありませんでした。"
+      report_of_unread_messages: "本メールはチャット機能の対応状況を集計したレポートです。"
+      unread_messages_header: "＜未対応状況レポート＞"
+      total_count: "%{target_name} : 計%{count}件"
+      partial_count: "%{target_name} : %{count}件"
+      org_situation: "店舗状況"
+      user_situation: "メンバー状況"
+      unread_messages_count: "未確認メッセージ件数"
+
+    unread_messages_suumo:
+      subject: "【SUUMOチャット機能】現在のチャット対応状況のご報告:%{target_name}用"
+      today_unread_messages_count: "本日、未対応のメッセージが%{count}件あります。"
+      today_unread_messages_nothing: "本日、未対応のメッセージはありませんでした。"
+      report_of_unread_messages: "本メールはSUUMOチャット機能の対応状況を集計したレポートです。"
+      send_time: "毎朝、毎夕に自動送信いたします。"
+      unread_messages_header: "＜未対応状況レポート＞"
+      total_count: "%{target_name}の未対応件数 : 計%{count}件"
+      partial_count: "%{target_name} : %{count}件"
+      unread_messages_count: "未読"
+      suumo_chat_login: '・SUUMOチャット機能ログイン画面'
+      suumo_chat_unsubscribe: '・配信停止はこちら'
+      footer1: '■□■------------------------------------------------------------'
+      footer2: 'サービス提供元'
+      footer3: '株式会社リクルートホールディングス'
+      footer4: 'http://www.recruit.co.jp/'
+
+    not_access:
+      subject: "%{not_access_months}か月間アクセスがないため、%{app_name} チャットセンターのアカウントがまもなく削除されます。"
+      hello: "%{recipient}さん、こんにちは。"
+      delete_user: "あなたは、%{app_name}・チャットセンター上において%{not_access_months}か月間アクセスがないため、引き続きアクセスがないと1か月後にアカウントが削除されます。"
+      sign_in: "%{app_name}・チャットセンターをご利用になる場合は、こちらのページからログインしてください。"
+      sender: "%{app_name}・チャットセンターから送信"
+
+  sms:
+    received_message:
+      subject: "%{app_name} チャットセンターでメッセージを受信しました。"
+
+  mobile_push:
+    received_message:
+      subject: "新着メッセージがあります"
+
+  web_push:
+    received_message:
+      subject: "新着メッセージがあります"

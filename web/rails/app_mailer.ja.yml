@@ -1,0 +1,86 @@
+ja:
+  app_mailer:
+    hi: 'こんにちは %{email} さん'
+    hi_trial: '%{email}様'
+    xx_days: '%{days}日'
+    footer_main: '※このメールアドレスは、配信専用です。本メールに返信をいただきましても、ご質問等にはお答えできませんのでご了承ください。'
+    footer: '※送信元：ChatCenter iO（https://www.chatcenter.io/ja/)'
+
+    app_trial_started:
+      subject: '<ChatCenter iO>トライアル利用開始お知らせ'
+      thanks_for_giving_chatCenter_io_a_try: 'こんにちは、ChatCenter iO サポートチームです。'
+      see_trial_detail_below: 'このたびは、ChatCenter iOのトライアル利用にお申し込みいただきありがとうございます。 <br />
+      お申し込みいただいた内容は以下のとおりとなります。'
+      free_trial_detail: 'お申し込み内容'
+      free_trial_will_convert_to_paid_subcription: '次月以降の決済日は、初回決済日の翌月同日となります。<br />
+                                                    また、従量課金分に関しては、翌月の基本料金と合わせてご請求させていただきます。'
+      you_will_need_to_cancel: 'もし残念ながら、トライアル利用期間中に解約される場合は、ChatCenter iO内にある弊社サポートセンター宛てのチャットにてご連絡いただくか、下記メールアドレスまでご連絡ください。'
+      we_build_chatcenter_for_better_communication: 'We built ChatCenter iO for our customers to communicate better, and we hope that we can achieve that for you.'
+      contact_us: '何か不明な点などがございましたら、ChatCenter iOサポートチーム<a href="mailto:hello@chatcenter.io">hello@chatcenter.io</a>にご連絡くださいませ。'
+      plan: '契約プラン'
+      contract_period: '契約期間'
+      free_trial_period: 'トライアル利用期間'
+      first_settlement_date: '初回決済日'
+      payment_amount: '決済金額'
+
+    app_trial_will_end:
+      subject: '<ChatCenter iO>トライアル期間があと3日で終了します！'
+      thanks_for_giving_chatCenter_io_a_try: 'ChatCenter iOをお試しいただき、誠にありがとうございます。'
+      your_free_trial_expires: 'ChatCenter iOのトライアル期間は、あと3日（%{contract_end}）で終了いたしますのでご案内申し上げます。'
+      paid_subscription_will_automatically_start: 'トライアル終了後もChatCenter iOを引き続きご利用いただけることを願っております。'
+      content_first: 'なお、トライアル解約のお申し出がない場合は、自動で契約が開始されますので、もし途中で解約されたい場合は弊社サポートチームまでお申し出いただきますようお願いいたします。'
+      content_two: 'お問い合わせは、'
+      content_third: 'ChatCenter iOサポートチーム'
+      content_four: 'にご連絡いただくか、ChatCenter iO内の問い合わせ専用チャットよりご連絡ください。'
+      content_five: 'それでは、引き続きChatCenter iOをご活用くださいませ。'
+#     app trial cancel
+    app_trial_cancel:
+     subject: '<ChatCenter iO>解約のお知らせ'
+     thanks_for: 'こんにちは、ChatCenter iO サポートチームです。'
+     thanks_for_ja: 'このたびはChatCenter iOをお試しいただき、誠にありがとうございました。'
+     we_are_sorry_that_you: '誠に残念ですが、お客様が作成した%{name}を削除させていただきました。'
+     we_are_sorry_that_you_ja: 'この変更はただちに有効となります。'
+     if_you_wish_to_use: 'またChatCenter iOをご利用いただける場合は、改めてアカウントを作成してください。'
+     create_account: 'アカウントを作成する'
+     our_customer_support_team: '何か不明な点などがございましたら、 '
+     our_customer_support_team_sup_ja: 'ChatCenter iOサポートチーム '
+     hope_to_see_you: 'にご連絡くださいませ。'
+     hope_to_see_you_ja: 'またのご利用を心よりお待ちしております。'
+     thanks: 'ありがとうございます。'
+#app contract started
+    app_contract_started:
+      subject: '<ChatCenter iO>初回決済完了と利用開始のお知らせ'
+      we_appreciate_you: 'こんにちは、ChatCenter iO サポートチームです。'
+      additional_thanks_for_continuing_using: 'ChatCenter iOの契約が%{date}より始まりました。'
+      we_built_chatcenter: 'ChatCenter iOを活用して、カスタマーコミュニケーションを素晴らしいものにしましょう！'
+      our_customer_support_team: '何か不明な点などがございましたら、'
+      our_customer_support_team_ja: 'ChatCenter iOサポートチーム'
+      thanks: 'ご契約内容は以下の通りとなります。'
+      subscription_details: 'ご契約内容'
+      company_name: '会社名'
+      account_owner: '契約者'
+      first_settlement_date: '初回決済完了日'
+#app contract settlement remind
+    app_contract_settlement_failed_remind:
+      subject: '<ChatCenter iO>決済が完了していません。3日でアカウントを削除いたします。'
+      thanks_for_using: 'こんにちは、ChatCenter iO サポートチームです。'
+      thanks_for_using_ja: 'いつもChatCenter iOをご利用いただき、誠にありがとうございます。'
+      as_we_mentioned_before_title: '先日もご連絡させていただきましたが、'
+      as_we_mentioned_before: '%{date}に予定されていた利用料金の決済が完了しておりません。'
+      please_check_to_see: '大変お手数ではございますが、改めてカード情報をご登録いただきますよう、'
+      please_check_to_see_ja: 'よろしくお願いいたします。'
+      your_account_is_blocked: 'なお、現在、アカウントはロックされておりますが、'
+      your_account_is_blocked_ja: 'カード情報を更新していただき正常に決済が完了次第、再びご利用いただくことができます。'
+      check_and_enter_payment: 'カード情報を更新する'
+      if_payment_is_not_confirmed_by: 'もし、%{next_payment_schedule_date}までに決済が完了しなかった場合は、%{app_name}のアカウントが削除されてしまいますので、'
+      if_payment_is_not_confirmed_by_ja: 'すぐにカード情報の更新をお願いいたします。'
+#app contract settlement
+    app_contract_settlement_failed:
+      subject: '<ChatCenter iO>クレジットカードの決済ができませんでした'
+      your_previous_payment_was_not: "お客様がご登録いただいているクレジットカードで決済ができませんでした。"
+      if_payment_is_not_confirmed_by_ja: "できるだけ早くカード情報の更新をお願いいたします。"
+#app contract disabled
+    app_contract_disabled:
+      subject: '<ChatCenter iO>解約のお知らせ'
+      we_are_sorry_that_title: "このたびはChatCenter iOをお試しいただき、誠にありがとうございました。"
+      we_are_sorry_that: "誠に残念ですが、現在ご契約をいただいている期間をもって、お客様が作成した%{app_name}を削除させていただきます。この変更は%{next_payment_date}から有効となります。"

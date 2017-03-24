@@ -1,0 +1,65 @@
+en:
+  app_mailer:
+    hi: 'Hi %{email}'
+    hi_trial: 'Hi %{email}'
+    xx_days: '%{days} days'
+    footer_main: '*Please do not reply to this email.'
+    footer: '*ChatCenter iO（https://www.chatcenter.io/en/)'
+
+    app_trial_started:
+      subject: '<ChatCenter iO>Your free trial started!'
+      thanks_for_giving_chatCenter_io_a_try: 'We appreciate you trying out ChatCenter iO!'
+      see_trial_detail_below: 'Please see your free trial details below.'
+      free_trial_detail: 'Free trial details'
+      free_trial_will_convert_to_paid_subcription: 'Your free trial will convert to a paid subscription once you redeemed the free trial. Settlement date from the second month will be the date one month after your first settlement date.'
+      you_will_need_to_cancel: 'You’ll need to cancel your free trial before the first settlement date in order to avoid being charged on your card. If you choose not to continue, please contact us at <a href="mailto:hello@chatcenter.io">hello@chatcenter.io</a> or contact our support team via chat.'
+      we_build_chatcenter_for_better_communication: 'We built ChatCenter iO for our customers to communicate better, and we hope that we can achieve that for you.'
+      contact_us: 'Our customer support team is here to help you with whatever you need. Don’t hesitate to email us at <a href="mailto:hello@chatcenter.io">hello@chatcenter.io</a>'
+      plan: 'Plan'
+      contract_period: 'Contract period'
+      free_trial_period: 'Free trial period'
+      first_settlement_date: 'First settlement date'
+      payment_amount: 'Payment amount'
+    app_trial_will_end:
+      subject: '<ChatCenter iO>Your trial expires  in 3 days!'
+      thanks_for_giving_chatCenter_io_a_try: 'Thanks for giving ChatCenter iO a try!'
+      your_free_trial_expires: 'Your free trial expires in 3 days  (%{contract_end}) but you can keep using ChatCenter.iO with a paid subscription.'
+      paid_subscription_will_automatically_start: 'Paid subscription will automatically start after the trial period ends unless you unsubscribe during the trial period. Please contact our customer support team if you choose not to continue the service.'
+      our_customer_support_team_is_here: 'Our customer support team is here to help you with whatever you need. Don’t hesitate to jump on a chat, or email us at hello@chatcenter.io.'
+#app trial cancel
+    app_trial_cancel:
+      subject: '<ChatCenter iO>Your account has been deleted.'
+      thanks_for: 'Thanks for giving ChatCenter iO a try!'
+      we_are_sorry_that_you: 'We are sorry that you are leaving but we have deleted your %{name} account as of today.'
+      if_you_wish_to_use: 'If you wish to use ChatCenter iO again, please create an account again from the link below.'
+      create_account: 'Create account'
+      our_customer_support_team: 'Our customer support team is here to help you with whatever you need. Don’t hesitate to email us at '
+      hope_to_see_you: 'Hope to see you soon again!'
+#app contract started
+    app_contract_started:
+      subject: '<ChatCenter iO>Your subscription started!'
+      we_appreciate_you: 'We appreciate you using ChatCenter iO!'
+      additional_thanks_for_continuing_using: 'Additional thanks for continuing using the service beyond your free trial period. Your subscription has started from %{date}.'
+      we_built_chatcenter: 'We built ChatCenter iO for our customers to communicate better, and we hope that we can achieve that for you.'
+      our_customer_support_team: 'Our customer support team is here to help you with whatever you need. Don’t hesitate to email us at '
+      thanks: 'Please see your subscription details below.'
+      subscription_details: 'Subscription details'
+      company_name: 'Company name'
+      account_owner: 'Account owner'
+
+    app_contract_settlement_failed_remind:
+      subject: '<ChatCenter iO> Payment failure, only 3 days left before deleting your account.'
+      thanks_for_using: 'Thanks for using ChatCenter iO.'
+      as_we_mentioned_before: 'As we mentioned before, your previous payment due on %{date} was not completed for some reason. '
+      please_check_to_see: 'Please check to see what went wrong and please submit your payment again.'
+      your_account_is_blocked: 'Your account is blocked currently but we will recover it once payment has been confirmed.'
+      check_and_enter_payment: 'Check and re-enter payment information'
+      if_payment_is_not_confirmed_by: 'If payment is not confirmed by %{next_payment_schedule_date}, we will delete your %{app_name} account. We wish you will stay as our customer and hope you can fix the payment issue by then.'
+#app contract settlement
+    app_contract_settlement_failed:
+      subject: '<ChatCenter iO> Payment failure'
+      your_previous_payment_was_not: "Your previous payment was not completed for some reason. Please check to see what went wrong and please submit your payment again."
+#app contract disabled
+    app_contract_disabled:
+      subject: '<ChatCenter iO> End of Subscription Notification'
+      we_are_sorry_that: "We are sorry that you are leaving but we will delete your %{app_name} account as of %{next_payment_date}."

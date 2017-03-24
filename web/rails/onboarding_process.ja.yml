@@ -1,0 +1,233 @@
+ja:
+  devise:
+    registrations:
+      new:
+        placeholder_email: you@company.com
+      need_confirmation:
+        need_confirmation: Need Confirmation
+        please_check_your_email: Please check your email for confirmation email.
+
+    confirmations:
+      show:
+        email: メールアドレス
+        company: 組織名(英数字のみ)
+        customer_platform: プラットフォーム
+        bussiness_type: ビジネスタイプ
+        btoc: B to C
+        btobtoc: B to B to C
+        company_name: 会社名
+        company_id: 会社ID
+        phone_number: 電話番号
+
+  users:
+    payments:
+      show:
+        select_a_plan: プランを選択
+        plan_starter: Starter
+        plan_pro: Pro
+        plan_enterprise: Enterprise
+        description:
+          starter: This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description.
+          pro: This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description.
+          enterprise: This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description.
+        table_a_plan: Table 1
+        plan_plans: プラン
+        plan_growth: グロース
+        plan_enterprise: エンタープライズ
+        plan_price: 価格
+        plan_price_month: $1000 / 月
+        plan_price_contact: お問い合わせください
+        plan_free_trial_period: 無料トライアル期間
+        plan_days_trial_period: 14日間すべての機能をご利用いただけます
+        plan_chat_with_text: テキストチャット
+        plan_multiple_team: 複数チームサポート (e.g. 支店・店舗など)
+        plan_of_apps: アプリケーション数
+        plan_operator_platform: オペレーター用プラットフォーム
+        plan_customer_platform: 顧客用プラットフォーム
+        plan_operator_platform_list: iOS, Android, Web
+        plan_of_active_channels: 顧客あたりのチャネル数
+        plan_free_for_months: 3ヶ月間無制限
+        plan_of_messeges_sent: メッセージ数制限
+        plan_unlimited: なし
+        plan_store_chat_history: チャット履歴保存
+        plan_forever: 期限なし
+        plan_make_a_phone_call: 音声通話
+        plan_make_a_video_call: ビデオ通話
+        plan_record_phone_video_call: 音声・ビデオ通話の録音・録画
+        plan_number_of_seats: オペレーター・エージェント席数
+        plan_per_additional_seats: 10席 + 1席追加ごとに$10 / 月
+        plan_assign_teammates: チームメンバーのアサイン
+        plan_mention_teammates: チームメンバーへのメンション
+        plan_available_soon: 開発中
+        plan_in_team_direct_messages: チーム内ダイレクトメッセージ
+        plan_in_team_group_chat: チーム内グループチャット
+        plan_white_labeling_operator_app: オペレーター用アプリのホワイトラベル化
+        plan_dashboard: ダッシュボード
+        plan_custom_dashboard: カスタムダッシュボード
+        plan_monthly_report_by_consultant: コンサルタントによるマンスリーレポート
+        plan_start_chat_with_email: Emailアドレスでのチャット開始機能
+        plan_start_chat_with_facebook: Facebookアカウントでのチャット開始機能
+        plan_start_chat_with_twitter: Twitterアカウントでのチャット開始機能
+        plan_start_chat_with_yahoo_id: Yahoo! IDでのチャット開始機能
+        plan_start_chat_with_google: Googleアカウントでのチャット開始機能
+        plan_integrate_custom_oauth: 独自OAuth認証との統合
+        plan_ip_access_restriction: IP アクセス制限
+        plan_schedule_a_dates_and_time_widget: 日/時スケジュールウィジェット
+        plan_schedule_dates_widget: 日付スケジュールウィジェット
+        plan_share_a_location_widget: 位置情報ウィジェット
+        plan_share_file_widget: ファイル共有ウィジェット
+        plan_share_from_dropbox: Dropboxからの共有
+        plan_share_from_google_drive: Google Driveからの共有
+        plan_share_from_custom_storage: カスタムストレージからの共有
+        plan_file_storage_size: ファイル保存容量
+        plan_file_storage_period: ファイル保存期限
+        plan_stored_forever: 保存期限なし
+        plan_share_mutual_locations_widget: リアルタイム位置共有ウィジェット
+        plan_make_a_payment_widget: 支払いウィジェット
+        plan_ask_a_question_widget: 質問ウィジェット
+        plan_sign_a_document_widget: 署名ウィジェット
+        plan_custom_widgets: カスタムウィジェット
+        plan_automation: 自動化
+        plan_suggestion: サジェスチョン（半自動化）
+        plan_number_of_automation_siggestion_rules: 自動化 / サジェスチョンルール登録数
+        plan_unlimited_for_months: 3ヶ月間無制限
+        plan_custom_events: カスタムイベント
+        plan_custom_condition: カスタム条件設定
+        plan_custom_actions: カスタムアクション
+        plan_automation_suggestion_packages: 自動化 / サジェスチョンパッケージ
+        plan_take_note_for_crm: 顧客管理用ノート
+        plan_funnel_analysis_of_customers: 顧客動向のファネル分析
+        plan_custom_funnel: カスタムファネル
+        plan_annotate_customers_with_custom_tags: カスタムタグによる顧客アノテーション
+        plan_invisible_note_in_chat: 管理用不可視チャットレイヤー
+        plan_onboarding_ux_consulting: 導入サポート / UXコンサルティング
+        plan_custom_features_development: カスタム機能開発
+        plan_talk_with_support_team: サポートお問い合わせ
+        plan_chat: チャット
+        plan_chat_phone: チャット / 電話
+        plan_reserved_volume_purchase: 予約ボリューム購入
+        plan_payment_methods: お支払い方法
+        plan_credit_debit: クレジット / Debit
+        plan_credit_debit_wire: クレジット / Debit / 電信送金
+      input:
+        start_your_subcription: Start your subscription
+        card_number: カード番号
+        expires: 有効期限
+        year: 年
+        month: 月
+        payment_information: お支払い情報を登録しましょう
+        security_code: セキュリティコード
+      integration:
+        invite_description: 貴社サイトやアプリへの実装を手伝っていただける開発メンバーの方をChatCenter iOに招待しましょう！
+        email: 招待したい方のメールアドレス
+        placeholder_email: メールアドレス
+
+  admin:
+    orgs:
+      install_chat:
+        install_chatcenter_on_your_apps: ChatCenterをお客様のアプリケーションに導入しましょう
+        install_the_code_below: 以下のコードをインストールしてください
+        copy_and_paste_the_code_below_in_the_header_section_of_your_website: ウェブサイトのヘッダーセクションに以下のコードをコピーして貼り付けます。
+        invite_failed: Invite failed
+        invite_success: Invited!
+      start_conversation:
+        start_your_chatcenter: Start Your ChatCenter
+
+  link:
+    create_account: アカウントを作成
+    select_plan: Plan
+    i_have_installed_the_code: I have installed the code
+    open: Open
+    download: Download
+    next: 次へ
+    proceed_to_integration: 導入プロセスへ進む
+    finish_integration: 導入を終える
+    share_to_your_dev_team: 開発メンバーに依頼する
+    start_using_chat: ChatCenter iOをはじめる
+    choose_this_plan_first: 年間契約プラン（$1,000/月）
+    choose_this_plan_first_ja: を申し込む
+    choose_this_plan_two: 月次契約プラン（$1,100/月）
+    contact_us: 問い合わせる
+    finish: 完了
+    finish_integration_and_go_next_step: 導入を終えて次に進む
+    register_payment_information: お支払い情報を登録
+  label:
+    android: Androidアプリ
+    ios: iOSアプリ
+    web: ウェブサイト
+    create_a_chatcenter_account: アカウントを作成
+    email_address: メールアドレス
+    share_your_email_with_anyone_else: メールアドレスを他社もしくは第三者に渡すことは絶対にありません
+    click_sing_up_indicate: 「アカウント作成」をクリックすることで、ChatCenter iOの
+    click_sing_up_indicate_sup: について同意したものとみなします
+    click_sing_up_indicate_privacy_policy_ja: 個人情報保護ポリシー
+    click_sing_up_indicate_terms_of_service: 利用規約
+    click_sing_up_indicate_and: ''
+    click_sing_up_indicate_privacy_policy: ''
+    click_sing_up_indicate_of_chatcenter_io: ''
+    click_sing_up_indicate_sup_and: と
+    already_have_an_account: 既にアカウントをお持ちのかたはこちら
+    thanks: ありがとうございます!
+    go_to_emails_and_click_on_the_comfirmation: 登録されたメールアドレス宛に認証メール送信しておりますので、メールに記載されているURLをクリックして認証を完了させていください。
+    link_to_top_page: ChatCenter トップページ
+    create_account: アカウント作成
+    choose_plan: プランを選択
+    add_coupon_code: +クーポンを追加する
+    coupon_code: クーポンコード
+    payment_info: お支払い情報
+    do_you_want_to_proceed_with_the_platform: そのまま導入プロセスに進む
+    platform_integration: ChatCenter iOを導入しましょう
+    intergration_sup_label: ChatCenter iOはあなたのサイトやアプリへ簡単に導入することができます。
+    integration: 導入
+    you_are_all_set: 設定完了！
+    share_with_dev_team: 開発メンバーを招待しましょう
+    thanks_inquiry: お問い合わせありがとうございます！
+    we_will_contact_you: ご登録いただいたアカウント情報にChatCenter iO担当者からご連絡させていただきます。
+    share_to_your_dev_team_title: 開発メンバーに導入を依頼する
+    unpaid: "お客様がご登録いただいているクレジットカードで決済ができませんでした。<br />大変お手数ではございますが、改めてカード情報をご登録いただきますよう、<br />よろしくお願いいたします。"
+
+  pricing:
+    pricing_growth: グロース
+    pricing_cost: $1,000
+    pricing_cost_month: /月額料金(年間契約)
+    pricing_cost_now: または $1,100(月次契約)
+    pricing_enterprise: エンタープライズ
+    pricing_contact_us: Contact Us
+    pricing_of_active_customers: 月間利用可能カスタマー
+    pricing_of_active_customers_cost: 1,000名
+    pricing_of_active_customers_cost_contact: 10,000名
+    pricing_of_operators: 月間利用可能オペレーター
+    pricing_of_operators_cost: 10名
+    pricing_of_operators_cost_contact: 10,000名
+    pricing_of_additional_active_customers: 追加カスタマー
+    pricing_of_additional_active_customers_cost: $60 / 100名
+    pricing_of_additional_active_customers_cost_contact: 個別見積もり
+    pricing_of_additional_active_operators: 追加オペレーター
+    pricing_of_additional_active_operators_cost: $10 / 1名
+    pricing_unlimited_chat_rooms: 無制限のチャットルーム生成
+    pricing_mobile_app_for_operators: オペレーター向けモバイルApp
+    pricing_make_a_phone_call: 音声通話
+    pricing_make_a_video_call: ビデオ通話
+    pricing_store_chat_history_forever: チャット履歴の永久保存
+    pricing_schedule_widget: 日時指定ウィジェット
+    pricing_file_sharing_widget: ファイル送信ウィジェット
+    pricing_fixed_phrase_widget: 定型文ウィジェット
+    pricing_automatic_reply: 自動返信
+    pricing_suggest_action_to_operators: オペレーターへの回答候補提示
+    pricing_set_custom_funnels: 独自のファネル設定
+    pricing_all_features_in_growth_plan_available_with_the_following_addition: グロースプランのすべての機能に加えて
+    pricing_with_the_following_addition: 以下の機能が利用可能
+    pricing_marketplace_option: マーケットプレイス利用
+    pricing_white_labeling: 自社ブランド運用
+    pricing_custom_design: デザインカスタマイズ
+    pricing_custom_authentication: カスタム認証
+    pricing_ip_access_restriction: IPアドレス制限
+    pricing_custom_widgets: カスタムウィジェット
+    pricing_onboarding_consulting: 導入コンサルティング
+    pricing_connection_to_crm: 自社CRM連携
+    pricing_custom_features_development: 各種カスタマイズ開発対応
+    pricing_connection_to_rd_party_ai_engine: 他社AIエンジン連携
+    pricing_reserved_volume_purchase: 定額ディスカウント契約
+    pricing_pay_via_invoice: 請求書支払
+    pricing_all_growth_plan: グロースプランの全機能
+    pricing_unlimited_for_months: 初回3ヶ月無制限！

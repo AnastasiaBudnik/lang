@@ -1,0 +1,34 @@
+/* 
+  ChatCenterInbox.strings
+  ChatCenterInbox
+
+  Created by 萩原伸悟 on 2015/12/10.
+  Copyright © 2015年 AppSocially inc. All rights reserved.
+*/
+"About ChatCenter.iO" = "ChatCenter iOについて";
+"Loading data..." = "ロード中です...";
+"You are logged out" = "ログインの有効期限が切れました";
+"Please login" = "再度ログインしてください";
+"Do you want to log out?" = "ログアウトしますか?";
+"Cancel" = "キャンセル";
+"Logging out..." = "ログアウト中です...";
+"name@company.com" = "Eメールアドレス";
+"Password" = "パスワード";
+"Log In" = "ログイン";
+"Forgot your password?" = "パスワードを忘れましたか?";
+"error" = "エラー";
+"Please fill in the email address" = "メールアドレスが入力されていません。";
+"Please fill in the password" = "パスワードが入力されていません。";
+"Invalid email address format" = "正しい形式のメールアドレスを入力してください。";
+"Login with Email" = "Eメールでログイン";
+"Go to Inbox" = "Inboxを開く";
+"Logout" = "ログアウト";
+"Plaease download latest version" = "最新バージョンのアプリが公開されています。アップデートをお願いします。";
+"Email" = "Eメール";
+"Welcome to ChatCenter.io" = "ChatCenter.ioへようこそ";
+"Fast & Efficient!" = "素早く、効率的に！";
+"Happy Faces everywhere!" = "すべての人を笑顔に！";
+"onboarding desc1" = "ChatCenter.ioを使えば、簡単かつスピーディーにお客様とつながることができます。";
+"onboarding desc2" = "数タップで完了するウェジェットを使えば、\nお客様とのコミュニケーションを改善できます。";
+"onboarding desc3" = "私たちと一緒にお客様を幸せにして、\nあなたのビジネスを加速させましょう！";
+"Start" = "スタート";

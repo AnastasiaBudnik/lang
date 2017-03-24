@@ -1,0 +1,12 @@
+ja:
+  ruby_duration:
+    second: 秒
+    seconds: 秒
+    minute: 分
+    minutes: 分
+    hour: 時間
+    hours: 時間
+    day: 日
+    days: 日
+    week: 週間
+    weeks: 週間

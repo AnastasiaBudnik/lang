@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatCenter</string>
+    <string name="chatcenter_about">ChatCenter iOについて</string>
+
+    <string name="logout">ログアウト</string>
+    <string name="logout_success">ログアウト成功</string>
+    <string name="logging_in">ログイン中</string>
+    <string name="login_with_email">Eメールでログイン</string>
+    <string name="open_inbox">Inboxを開く</string>
+    <string name="email">Eメール</string>
+    <string name="password">パスワード</string>
+    <string name="login">ログイン</string>
+    <string name="forgot_password">パスワードを忘れた場合</string>
+    <string name="start">スタート</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_welcome">
+        <![CDATA[
+        <h3>ChatCenter.ioへようこそ</h3>
+        <p>ChatCenter.ioを使えば、<br/>
+        簡単かつスピーディーにお客様と<br/>
+        つながることができます。</p>
+        ]]>
+    </string>
+
+    <string name="tutorial_advantage">
+        <![CDATA[
+        <h3>素早く、効率的に！</h3>
+        <p>数タップで完了する<br/>
+        ウェジェットを使えば、<br/>
+        お客様とのコミュニケーションを<br/>
+        改善できます。</p>
+        ]]>
+    </string>
+
+    <string name="tutorial_happy_faces">
+        <![CDATA[
+        <h3>すべての人を笑顔に！</h3>
+        <p>私たちと一緒にお客様を<br/>
+        幸せにして、あなたのビジネスを<br/>
+        加速させましょう！</p>
+        ]]>
+    </string>
+</resources>

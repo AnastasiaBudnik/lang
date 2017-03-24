@@ -1,0 +1,230 @@
+en:
+  devise:
+    registrations:
+      new:
+        placeholder_email: you@company.com
+      need_confirmation:
+        need_confirmation: Need Confirmation
+        please_check_your_email: Please check your email for confirmation email.
+
+    confirmations:
+      show:
+        email: Email
+        company: Company
+        customer_platform: Customer's Platform
+        bussiness_type: Bussiness type
+        btoc: B to C
+        btobtoc: B to B to C
+        company_name: Company Name
+        company_id: Company Id
+        phone_number: Phone Number
+
+  users:
+    payments:
+      show:
+        select_a_plan: Choose Plan
+        plan_starter: Starter
+        plan_pro: Pro
+        plan_enterprise: Enterprise
+        description:
+          starter: This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description.
+          pro: This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description.
+          enterprise: This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description. This is sample description.
+        table_a_plan: Table 1
+        plan_plans: Plans
+        plan_growth: Growth
+        plan_enterprise: Enterprise
+        plan_price: Price
+        plan_price_month: 1000 / Month
+        plan_price_contact: Contact us
+        plan_free_trial_period: Free Trial Period
+        plan_days_trial_period: 14 Days Trial Period with all the features
+        plan_chat_with_text: Chat with Text
+        plan_multiple_team: Multiple Teams (e.g.Marketplaces)
+        plan_of_apps: of Apps
+        plan_operator_platform: Operators’ Platform
+        plan_customer_platform: Customers’ Platform
+        plan_operator_platform_list: iOS, Android, Web
+        plan_of_active_channels: of Active Channels / Customers
+        plan_free_for_months: Free for 3 months
+        plan_of_messeges_sent: of Messeges sent
+        plan_unlimited: Unlimited
+        plan_store_chat_history: Store Chat History
+        plan_forever: Forever
+        plan_make_a_phone_call: Make a phone call
+        plan_make_a_video_call: Make a video call
+        plan_record_phone_video_call: Record phone/video call
+        plan_number_of_seats: Number of Seats (of Agents / Operators)
+        plan_per_additional_seats: 10 seats + $10/m per additional seats
+        plan_assign_teammates: Assign Teammates
+        plan_mention_teammates: Mention Teammates
+        plan_available_soon: Available soon
+        plan_in_team_direct_messages: In-Team Direct Messages
+        plan_in_team_group_chat: In-Team Group Chat
+        plan_white_labeling_operator_app: White Labeling Operator App
+        plan_dashboard: Dashboard
+        plan_custom_dashboard: CUSTOM Dashboard
+        plan_monthly_report_by_consultant: Monthly Report by consultant
+        plan_start_chat_with_email: Start Chat with Email
+        plan_start_chat_with_facebook: Start Chat with Facebook
+        plan_start_chat_with_twitter: Start Chat with Twitter
+        plan_start_chat_with_yahoo_id: Start Chat with Yahoo! ID
+        plan_start_chat_with_google: Start Chat with Google
+        plan_integrate_custom_oauth: Integrate CUSTOM OAuth
+        plan_ip_access_restriction: IP Access Restriction
+        plan_schedule_a_dates_and_time_widget: Schedule a Dates and Time Widget
+        plan_schedule_dates_widget: Schedule Dates Widget
+        plan_share_a_location_widget: Share a Location Widget
+        plan_share_file_widget: Share Files Widget
+        plan_share_from_dropbox: Share from Dropbox
+        plan_share_from_google_drive: Share from Google Drive
+        plan_share_from_custom_storage: Share from CUSTOM Storage
+        plan_file_storage_size: File Storage Size
+        plan_file_storage_period: File Storage Period
+        plan_stored_forever: Stored Forever
+        plan_share_mutual_locations_widget: Share Mutual Locations Widget
+        plan_make_a_payment_widget: Make a Payment Widget
+        plan_ask_a_question_widget: Ask a Question Widget
+        plan_sign_a_document_widget: Sign a Document Widget
+        plan_custom_widgets: CUSTOM Widgets
+        plan_automation: Automation
+        plan_suggestion: Suggestion
+        plan_number_of_automation_siggestion_rules: Number of Automation / Siggestion Rules
+        plan_unlimited_for_months: Unlimited for 3 months
+        plan_custom_events: CUSTOM Events
+        plan_custom_condition: CUSTOM Conditions
+        plan_custom_actions: CUSTOM Actions
+        plan_automation_suggestion_packages: Automation/Suggestion Packages
+        plan_take_note_for_crm: Take Note for CRM
+        plan_funnel_analysis_of_customers: Funnel Analysis of Customers
+        plan_custom_funnel: CUSTOM Funnel
+        plan_annotate_customers_with_custom_tags: Annotate Customers with Custom Tags
+        plan_invisible_note_in_chat: Invisible Note in Chat (for CRM)
+        plan_onboarding_ux_consulting: Onboarding/UX Consulting
+        plan_custom_features_development: CUSTOM Features Development
+        plan_talk_with_support_team: Talk with Support Team
+        plan_chat: Chat
+        plan_chat_phone: Chat / Phone
+        plan_reserved_volume_purchase: Reserved Volume Purchase
+        plan_payment_methods: Payment Methods
+        plan_credit_debit: Credit / Debit
+        plan_credit_debit_wire: Credit / Debit / Wire
+      input:
+        start_your_subcription: Start your subscription
+        card_number: Card number
+        expires: Expires
+        year: Year
+        month: Month
+        payment_information: Payment Information
+        security_code: Security Code
+      integration:
+        invite_description: Let's invite development members who can help you implement on your site or application to ChatCenter iO!
+        email: Email
+        placeholder_email: Email
+
+  admin:
+    orgs:
+      install_chat:
+        install_chatcenter_on_your_apps: Install ChatCenter iO on your website or applications
+        install_the_code_below: Install the code below
+        copy_and_paste_the_code_below_in_the_header_section_of_your_website: Copy and Paste the code below in the header section of your website.
+      start_conversation:
+        start_your_chatcenter: Start Your ChatCenter
+
+  link:
+    create_account: Create account
+    select_plan: Plan
+    i_have_installed_the_code: I have installed the code
+    open: Open
+    download: Download
+    next: Next
+    proceed_to_integration: Proceed to Integration
+    finish_integration: Finish Integration
+    share_to_your_dev_team: Ask your developer
+    start_using_chat: Start using ChatCenter iO
+    choose_this_plan_first: Get started with annual contract ($1,000 / month)
+    choose_this_plan_first_ja: " "
+    choose_this_plan_two: Get started with monthly contract ($1,100 / month)
+    contact_us: Contact Us
+    finish: Finish
+    finish_integration_and_go_next_step: We have installed the code
+    register_payment_information: Register payment information
+  label:
+    android: Android app
+    ios: iOS app
+    web: Web
+    create_a_chatcenter_account: Create a ChatCenter iO Account
+    email_address: Email address
+    share_your_email_with_anyone_else: We'll never share your email with anyone else
+    click_sing_up_indicate: By clicking "Sign Up", I indicate that I have read and agree to the
+    click_sing_up_indicate_terms_of_service: Terms of Service
+    click_sing_up_indicate_and: and
+    click_sing_up_indicate_privacy_policy: Privacy Policy
+    click_sing_up_indicate_of_chatcenter_io: of ChatCenter iO.
+    click_sing_up_indicate_sup: ''
+    click_sing_up_indicate_privacy_policy_ja: ''
+    click_sing_up_indicate_sup_and: ''
+    already_have_an_account: Already have an account?
+    thanks: Thanks!
+    go_to_emails_and_click_on_the_comfirmation: Check your email and click on the confirmation link we just sent you.
+    link_to_top_page: ChatCenter iO Top Page
+    create_account: Create Account
+    choose_plan: Choose Plan
+    add_coupon_code: Add coupon code
+    coupon_code: Coupon code
+    payment_info: Payment Info
+    do_you_want_to_proceed_with_the_platform: Do you want to proceed with the platform integration?
+    platform_integration: Platform Integration
+    intergration_sup_label: It's very simple to integrate ChatCenter iO to your website or your app.
+    integration: Integration
+    you_are_all_set: You are all set!
+    share_with_dev_team: Share with dev team
+    thanks_inquiry: Thank you for getting in touch!
+    we_will_contact_you: We appreciate you contacting us about ChatCenter iO. One of our representative will get back to you as soon as possible.
+    share_to_your_dev_team_title: Ask your developer for integration
+    unpaid: Your previous payment was not completed for some reason. Please check to see what went wrong and please submit your payment again.
+  pricing:
+    pricing_growth: Growth
+    pricing_cost: $1,000
+    pricing_cost_month: /month (annual contract)
+    pricing_cost_now: or $1,100/month (monthly contract)
+    pricing_enterprise: Enterprise
+    pricing_contact_us: Contact Us
+    pricing_of_active_customers: "# of Active customers"
+    pricing_of_active_customers_cost_en: 1,000
+    pricing_of_active_customers_cost_contact_en: 10,000
+    pricing_of_operators: "# of operators"
+    pricing_of_operators_cost_en: 10
+    pricing_of_operators_cost_contact_en: 10,000
+    pricing_of_additional_active_customers: Additional active customers
+    pricing_of_additional_active_customers_cost_en: $60 / 100
+    pricing_of_additional_active_customers_cost_contact: Contact us
+    pricing_of_additional_active_operators: Additional active operators
+    pricing_of_additional_active_operators_cost_en: $10 / 1
+    pricing_unlimited_chat_rooms: Unlimited chat rooms
+    pricing_mobile_app_for_operators: Mobile app for operators
+    pricing_make_a_phone_call: Make a phone call
+    pricing_make_a_video_call: Make a video call
+    pricing_store_chat_history_forever: Store chat history forever
+    pricing_schedule_widget: Schedule widget (Date and time)
+    pricing_file_sharing_widget: File sharing widget
+    pricing_fixed_phrase_widget: Fixed phrase widget
+    pricing_automatic_reply: Automatic reply
+    pricing_suggest_action_to_operators: Suggest action to operators
+    pricing_set_custom_funnels: Set custom funnels
+    pricing_all_features_in_growth_plan_available_with_the_following_addition: All features in growth plan available
+    pricing_with_the_following_addition: with the following addition
+    pricing_marketplace_option: Marketplace option
+    pricing_white_labeling: White labeling
+    pricing_custom_design: Custom design
+    pricing_custom_authentication: Custom authentication
+    pricing_ip_access_restriction: IP access restriction
+    pricing_custom_widgets: Custom widgets
+    pricing_onboarding_consulting: Onboarding/UX Consulting
+    pricing_connection_to_crm: Connection to CRM
+    pricing_custom_features_development: Custom features development
+    pricing_connection_to_rd_party_ai_engine: Connection to 3rd party AI engine
+    pricing_reserved_volume_purchase: Reserved volume purchase
+    pricing_pay_via_invoice: Pay via invoice
+    pricing_all_growth_plan: All growth plan features
+    pricing_unlimited_for_months: Unlimited for 3 months!

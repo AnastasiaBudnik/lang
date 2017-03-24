@@ -1,0 +1,89 @@
+en:
+  devise:
+    failure:
+      invited: 'You have a pending invitation, accept it to finish creating your account.'
+    invitations:
+      send_instructions: 'An invitation email has been sent to %{email}.'
+      add_org: 'Add %{email} to %{org_name} as %{role_name}.'
+      invitation_token_invalid: 'The invitation token provided is not valid!'
+      updated: 'Your password was set successfully. You are now signed in.'
+      no_invitations_remaining: "No invitations remaining"
+      invitation_removed: 'Your invitation was removed.'
+      new:
+        header: "Send invitation"
+        submit_button: "Send invitation"
+      edit:
+        header: "Set your password"
+        submit_button: "Set my password"
+    mailer:
+      invitation_instructions:
+        subject: 'You have been invited to ChatCenter iO!'
+        hello: 'Hello %{email}'
+        hi: 'Hi %{email}'
+        remind: '期限が近づいて参りましたので、改めてご案内申し上げます。'
+        someone_invited_you: 'Someone has invited you to ChatCenter iO, you can accept it through the link below.'
+        accept: 'Accept invitation'
+        login: 'Login'
+        invite_for: 'なお、このURLは送信日時から %{invite_for} 有効となっています。'
+        ignore: "If you don't want to accept the invitation, please ignore this email.<br />Your account won't be created until you access the link above and set your password."
+        ignore_existed: "This link will expire in 48 hours. You will need to sign up again if you are not able to see the link within the next 48 hours."
+        you_have_been_invited_to: "You have been invited to join %{app} in ChatCenter iO by %{inviter}."
+        you_can_now_join: "You can now join %{org} team by sigining in to ChatCenter iO."
+        login_invitation_instructions: "Sign in to ChatCenter iO"
+        you_can_now_join_sup_title: " "
+        login_invitation_instructions_sup_title: " "
+        invitation_instructions_with_code_title: "%{name} from %{org} wants to invite you to join ChatCenter iO for installing the service on your website / mobile application. "
+        invitation_instructions_with_code_sup_title: "Please click the link below to start creating your account"
+        invitation_instructions_with_code_create_account: "Create account"
+        invitation_instructions_with_code_you_can_also_proceed: "You can also proceed with installing ChatCenter iO by following the guide below without creating an account."
+        invitation_instructions_with_code_your_account_will_not_be_created: "Your account will not be created as long as you do not complete the process from the link above."
+        invitation_instructions_with_code_exist_title: "%{name} from %{org} wants to ask you to join ChatCenter iO for installing the service on your website / mobile application.  "
+        invitation_instructions_with_code_exist_sup_title: "Please click the link below to login."
+        invitation_instructions_with_code_exist_create_account: "Login to ChatCenter iO"
+        invitation_instructions_with_code_exist_you_can_also_proceed: "You can also proceed with installing ChatCenter iO by following the guide below without logging in."
+        invitation_instructions_with_code_exist_your_account_will_not_be_created: "Your account will not be created as long as you do not complete the process from the link above."
+        invitation_instructions_with_code_footer: "* Please do not reply to this email."
+        invitation_instructions_with_code_footer_link: "* ChatCenter iO（https://www.chatcenter.io/)"
+        invitation_instructions_footer: "ChatCenter iO（https://www.chatcenter.io)"
+        platform_integrations: "Platform Integrations"
+      invitation_instructions_not_exist:
+        invitation_instructions_not_exist_to_get_started: "To get started, click the link below:"
+        accept: "Accept invitation"
+      invitation_instructions_suumo:
+        subject: '[リクルート住まいカンパニー] SUUMOチャット機能のアカウント登録のお願い'
+        hello: '%{email} 様'
+        remind: '期限が近づいて参りましたので、改めてご案内申し上げます。'
+        someone_invited_you1: '平素は格別のお引立てを賜り、厚くお礼申し上げます。'
+        someone_invited_you2: 'SUUMOチャット機能のアカウント登録のお願いに参りました。'
+        accept: '下記手順で内容ご確認の上、アカウントのご登録をお願いいたします。'
+        accept1: '1)下記URLをクリックし、アカウント登録画面を表示してください。'
+        accept2-1: '2)アカウント登録画面で「姓」「名」「パスワード」を入力して、画面下部にある「登録」ボタンをクリックしてください。'
+        accept2-2: '（写真は任意です。）'
+        accept3: '3)画面左上に「貴方のパスワードは、無事設定されました。貴方は、サインインしています。」という文言が表示されていましたら、ご登録完了です。'
+        invite_for: '※お申込み手続きにつきましては、有効期限（%{invite_for}）までに行っていただけますようお願いいたします。'
+        ignore1: '※このメールに心当たりのない場合には、このメールを無視してください。'
+        ignore2: '上記のリンクにアクセスして登録を完了するまでは、アカウントは作られません。'
+        send_only1: '※このメールアドレスは送信専用です。'
+        send_only2: '本メールに返信していただきましてもご質問・ご依頼などにはお答えいたしかねますので、'
+        send_only3: 'お問い合わせは弊社の営業担当者・またはサポートセンター<0120-622-412>までご連絡ください。'
+        suumo_chat_login: '※SUUMOチャット機能ログイン画面 https://r-platform.com/'
+        footer1: '■□■------------------------------------------------------------'
+        footer2: 'サービス提供元：SUUMO http://suumo.jp/'
+        footer3: '発行：株式会社リクルートホールディングス http://www.recruit.co.jp/'
+        footer4: 'SUUMOチャット機能'
+      invitation_instructions_with_code:
+        subject: 'You have been invited to ChatCenter iO!'
+        hello: 'Hello %{email}'
+        remind: '期限が近づいて参りましたので、改めてご案内申し上げます。'
+        someone_invited_you: 'Someone has invited you to ChatCenter iO, you can accept it through the link below.'
+        accept: 'Accept invitation'
+        invite_for: 'なお、このURLは送信日時から %{invite_for} 有効となっています。'
+        ignore: "If you don't want to accept the invitation, please ignore this email.<br />Your account won't be created until you access the link above and set your password."
+  users:
+    invitations:
+      new:
+        header: "Invite a member"
+      create:
+        header: "Invite a member"
+      create_from_csv:
+        header: "Invite a member"

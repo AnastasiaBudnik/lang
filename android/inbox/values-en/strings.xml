@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatCenter</string>
+    <string name="chatcenter_about">About ChatCenter iO</string>
+
+    <string name="logout">Logout</string>
+    <string name="logout_success">Logout Success</string>
+    <string name="logging_in">Signing in</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="open_inbox">Open Inbox</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="start">Start</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_welcome">
+        <![CDATA[
+        <h3>Welcome to ChatCenter.io</h3>
+        <p>ChatCenter.io let you connect<br/>
+        with your customers in a <br/>
+        supper easy and simple way.</p>
+        <p>It is like chatting with your friends!</p>
+        ]]>
+    </string>
+
+    <string name="tutorial_advantage">
+        <![CDATA[
+        <h3>Fast & Efficient!</h3>
+        <p>Use out widgets to improve the<br/>
+        communication with your customers.</p>
+        <p>You can easily use them with <br/>
+        a couple of taps.</p>
+        ]]>
+    </string>
+
+    <string name="tutorial_happy_faces">
+        <![CDATA[
+        <h3>Happy Faces everywhere!</h3>
+        <p>Keep your customers happy<br/>
+        and grow your business<br/>
+        along with us!</p>
+        ]]>
+    </string>
+</resources>

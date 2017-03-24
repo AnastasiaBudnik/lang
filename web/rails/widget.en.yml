@@ -1,0 +1,97 @@
+en:
+  widget:
+    downloader:
+      err_wrong_widget_param: "Please confirm 'data-app-token' and 'data-org-uid'"
+      err_popup_blocked: "Cant open popup dialog chat because browser block it"
+      err_invalid_app_token_and_org_uid: "Invalid App-Token and Org-Uid"
+      err_invalid_app_token: "Invalid App-Token"
+      err_invalid_org_uid: "Invalid Org-Uid"
+    text_new_page:
+      sub_title_select_a_team: "Select one of your teams from the list below"
+      sub_title_obtain_and_embed_code: "Copy the code below and embed on your website"
+      sub_title_configure: "You can configure the web channel below."
+      hide_time: "Do not display chat button at"
+      allowed_url: "URL Patters to display chat window"
+      require_customers_to_input: "Required fields to start conversation"
+      sub_title_require_data: "In order to start the chat, the customer needs to input:"
+      sub_font_size: "Choose the size of all the text messages inside the chat"
+      sub_chat_availability: "Choose when do you want to make the chat available for your customer"
+      sub_url_patterns: "Choose which pages will display the chat"
+      choose_team: "Choose team"
+
+    label:
+      select_a_team: "Select a team"
+      obtain_and_embed_code: "Obtain and embed code"
+      configure: "Configure"
+      popup: "Pop up external window"
+      inside_window: "Display inside your website"
+      sub_title_web_integration: "Add ChatCenter iO to your Website"
+      chat_window_style: "Chat Window Style"
+      sub_chat_window_style: "Choose the behaviour you want for the chat window"
+      font_size: "Font Size"
+      save_change: "Save Change"
+      chat_availability: "Chat Availability"
+      url_patterns: "URL Patterns"
+    ios:
+      team_id: "TeamID"
+      obtain_app_team: "Obtain the App Token and Team ID"
+      sub_obtain_app_team: "Select one of your teams from below who receives messages from customers"
+      app_token: "App token"
+      copy: "Copy"
+      copy_code: "Copy Code"
+      customize: "Customize"
+      select_team: "Select a Team"
+      sub_create: '<p class="sticker-title">Custom widget feature is not public feature now <a>Contact us</a> for details</p>'
+      install_sdk_description: "<p>1. ソースをブロジェクトに挿入※必須</p>
+                                <p>2. ライブラリの追加※必須</p>
+                                <p>3. PCHファイルのバス追加※必須</p>
+                                <p>4. ウィジェットを有効化するMacro定数の追加</p>
+                                <p>5. plistの編集（ロケーションウィジェット）</p>
+                                <p>6. App Tokenのセット※必須</p>
+                                <p>7. Chat Viewの呼び出し※必須</p>
+                                <p>7-1. 認証ありの場合</p>
+                                <p>7-2. 認証なしの場合(Anonymousログイン）</p>
+                                <p>※ 認証エラーが発生した場合の挙動について</p>
+                                <p>※ Organization Uid(法人/店舗ID）について</p>
+                                <p>8. History Viewの呼びだし※必須</p>
+                                <p>8-1. 認証ありの場合</p>
+                                <p>8-2. 認証なしの場合(Anonymousログイン）</p>
+                                <p>※ 認証エラーが発生した場合の挙動について</p>
+                                <p>9. ユーザーのログアウト※必須</p>"
+      customise_description: "<p>10. デザインの</p>
+                              <p>10-1. Base color</p>
+                              <p>10-2. Image preview close button image</p>
+                              <p>10.3. Back button image</p>
+                              <p>10-4. Phone call button image</p>
+                              <p>10-5. Send button color</p>
+                              <p>10-6. History view title</p>
+                              <p>10-7. History view void message</p>
+                              <p>11. 認証済みユーザーかの確認</p>
+                              <p>12. 指定のOrganizationでチャット開始済みユーザーかの確認</p>
+                              <p>13. 未読メッセージの有無</p>
+                              <p>14. 言語のローカライズ</p>
+                              <p>15. ブッシュ通知</p>
+                              <p>15-1. ブッシュ通知のオン</p>
+                              <p>15-2. ブッシュ通知のオン</p>
+                              <p>15-3. ブッシュ通知の受信</p>
+                              <p>16. Anonymousログインで事前にチャットデータをロードする場合</p>
+                              <p>17. Orgのオンライ/オフライを取得する</p>
+                              <p>18. ChatCenterDelegate</p>
+                              <p>18-1. 認証エラーダイアログを閉じるタイミングを取得する場合</p>"
+      install_sdk_title: "Install SDK"
+      sub_install_sdk_title: "Copy the code below and embed on your website"
+      customise_title: "Customise and do more"
+      sub_customise_title: "Follow the steps below"
+      sub_title_ios_app: "Add a channel on your IOS project"
+      install_sdk: "Install SDK"
+    android:
+      obtain_app_team: "Obtain the App Token and Team ID"
+      sub_obtain_app_team: "Select one of your teams from below who receives messages from customers"
+      app_token: "App token"
+      copy: "Copy"
+      select_team: "Select a Team"
+      install_sdk_title: "Install SDK"
+      sub_title_android_app: "Add a channel on your Androi project"
+  link:
+    show_link_widget: "&lt;script src=\"%{widget_url}/downloader.js\" id=\"downloaderjs\" data-app-token=\"%{token}\" data-org-uid=\"%{uid}\" data-style=\"%{style}\" data-locale=\"%{locale}\"&gt;&lt;/script&gt;"
+
