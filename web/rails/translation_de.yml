@@ -1,0 +1,2422 @@
+de:
+  activerecord:
+    models:
+      app: app  #g
+      app_user: app_user  #g
+      channel: channel  #g
+      channel_user: channel_user  #g
+      customer: customer  #g
+      customer_report: customer report  #g
+      message: message  #g
+      org: org  #g
+      org_user: org_user  #g
+      privilege: privilege  #g
+      role: role  #g
+      role_app_user: role_app_user  #g
+      role_privilege: role_privilege  #g
+      role_user: role_user  #g
+      sticker: widget  #g
+      sticker_app: widget_app  #g
+      tag: tag  #g
+      tag_user: tag_user  #g
+      user: User  #g
+      user_read_message: user_read_message  #g
+      app_org_config: app_org_config  #g
+      org_config: org_config  #g
+      org_org_config: org_org_config  #g
+      user_config: user_config  #g
+      user_user_config: user_user_config  #g
+      superadmin: superadmin  #g
+      channel_information: channel_information  #g
+      provider: provider  #g
+      store: store  #g
+      white_list: white_list  #g
+      schedule: schedule  #g
+      app_icon: app_icon  #g
+      app_role: app_role  #g
+      opportunity_appointment: opportunity_appointment  #g
+      opportunity_competitor: opportunity_competitor  #g
+      question: question  #g
+      question_selection: question_selection  #g
+      question_yes_no: question_yes_no  #g
+      answer: answer  #g
+      question_free: question_free  #g
+      question_multi: question_multi  #g
+      question_single: question_single  #g
+      notification: notification  #g
+      app_notification: app_notification  #g
+      device: device  #g
+      mobile_push_endpoint: mobile_push_endpoint  #g
+      inquiry_log: inquiry_log  #g
+      message_upload_file: message_upload_file  #g
+      question_message: question_message  #g
+      upload_file: upload_file  #g
+      recipe: recipe  #g
+      recipe_action: recipe_action  #g
+      recipe_action_email: recipe_action_email  #g
+      recipe_condition: recipe_condition  #g
+      recipe_condition_datetime: recipe_condition_datetime  #g
+      recipe_trigger: recipe_trigger  #g
+      recipe_history: recipe_history  #g
+      recipe_action_message: recipe_action_message  #g
+      recipe_condition_org: recipe_condition_org  #g
+      funnel: funnel  #g
+      fixed_phrase: fixed_phrase  #g
+      fixed_phrase_org: fixed_phrase_org  #g
+      fixed_phrase_user: fixed_phrase_user  #g
+      widget_config: widget_config  #g
+      recipe_action_delete_user: recipe_action_delete_user  #g
+      recipe_action_delete_user_not_access: recipe_action_delete_user_not_access  #g
+      recipe_action_delete_user_not_access_role: recipe_action_delete_user_not_access_role  #g
+      user_email_status: user_email_status  #g
+      channel_note: channel_note  #g
+      note: note  #g
+      always: always  #g
+      assign_user: assign_user  #g
+      channel_user_unread_message: channel_user_unread_message  #g
+      eca_action: eca_action  #g
+      eca_condition: eca_condition  #g
+      eca_event: eca_event  #g
+      eca_rule: eca_rule  #g
+      fixed_phrase_app: fixed_phrase_app  #g
+      in_app_custom_event: in_app_custom_event  #g
+      in_app_focus_to_chat: in_app_focus_to_chat  #g
+      in_app_open_chat: in_app_open_chat  #g
+      in_channel_close_chat: in_channel_close_chat  #g
+      in_channel_fixed_sticker_action_selected: in_channel_fixed_widget_action_selected  #g
+      in_channel_funnel_moved: in_channel_funnel_moved  #g
+      in_channel_funnel_moved_from: in_channel_funnel_moved_from  #g
+      in_channel_funnel_moved_to: in_channel_funnel_moved_to  #g
+      in_channel_open_chat: in_channel_open_chat  #g
+      in_channel_receive_message: in_channel_receive_message  #g
+      in_channel_receive_sticker: in_channel_receive_widget  #g
+      in_channel_recipe_replied: in_channel_recipe_replied  #g
+      in_channel_sent_message: in_channel_sent_message  #g
+      in_channel_sent_sticker: in_channel_sent_widget  #g
+      in_channel_sticker_action_selected: in_channel_widget_action_selected  #g
+      in_channel_triggered_by_recipe: in_channel_triggered_by_recipe  #g
+      locations: locations  #g
+      move_funnel: move_funnel  #g
+      no_response: no_response  #g
+      out_app_scheduled_batch: out_app_scheduled_batch  #g
+      payment: payment  #g
+      response_match: response_match  #g
+      send_message: send_message  #g
+      send_suggestion: send_suggestion  #g
+      shortened_url: shortened_url  #g
+      specified_funnel_from: specified_funnel_from  #g
+      specified_funnel_position: specified_funnel_position  #g
+      specified_funnel_to: specified_funnel_to  #g
+      specified_time_elapsed: specified_time_elapsed  #g
+      specified_time_range: specified_time_range  #g
+      string_match: string_match  #g
+      suggestion: suggestion  #g
+      trigger_recipe: trigger_recipe  #g
+      user_authentication_token: user_authentication_token  #g
+      web_push_subscription: web_push_subscription  #g
+      location_history: location_history  #g
+      delivery: delivery  #g
+      delivery_detail: delivery_detail  #g
+      fixed_phrase_eca_action: fixed_phrase_eca_action  #g
+      fixed_phrase_eca_condition: fixed_phrase_eca_condition  #g
+      aggregation: aggregation  #g
+      plan: plan  #g
+      delivery_pattern: delivery_pattern  #g
+      delivery_pattern_detail: delivery_pattern_detail  #g
+      company: company  #g
+
+    attributes:
+      app:
+        deleted_at: deleted_at  #g
+        name: Application Name  #g
+        orgs: orgs  #g
+        token: token  #g
+        uid: Application ID  #g
+        users: users  #g
+        app_org_configs: app_org_configs  #g
+        org_configs: App Custom Data  #g
+        user_configs: User Custom Data  #g
+        sticker_apps: Widgets  #g
+        stickers: widgets  #g
+        app_icons: App Icon  #g
+        app_roles: app_roles  #g
+        roles: roles  #g
+        subdomain: Subdomain  #g
+        enable_subdomain: Enable Subdomain  #g
+        ga_tracking_id: Google Analytics ID  #g
+        opportunity_appointments: opportunity_appointments  #g
+        opportunity_competitors: opportunity_competitors  #g
+        schedules: schedules  #g
+        app_users: app_users  #g
+        business_type: business_type  #g
+        welcome_popup: Welcome Message in Popup Window to Operators  #g
+        enable_welcome_popup: Display Welcome Message  #g
+        app_notifications: app_notifications  #g
+        notifications: Available Notifcations  #g
+        devices: devices  #g
+        application_arn: application_arn  #g
+        mobile_push_endpoints: Mobile Push Endpoints  #g
+        brand_bar: Brand Bar  #g
+        enable_brand_bar: Display brand bar on the top of dashboard  #g
+        recipes: recipes  #g
+        funnels: funnels  #g
+        allow_channel_status_nomessages: First Notification to the Operators  #g
+        twitter_consumer_key: Twitter consumer key  #g
+        twitter_consumer_secret: Twitter consumer secret  #g
+        read_for_guest: Visibility of the Read; Unread Status of the Operators  #g
+        enable_read_for_guest: Display Read; Unread Status to Customers  #g
+        inquiry_interval_day: Inquiry interval day  #g
+        android: android  #g
+        eca_rules: eca_rules  #g
+        fixed_phrase_apps: fixed_phrase_apps  #g
+        fixed_phrases: fixed_phrases  #g
+        ios: ios  #g
+        payment: :activerecord.models.payment  #g
+        required_to_pay: required_to_pay  #g
+        web: web  #g
+        multiple: multiple
+        contract_ends_at: contract_ends_at  #g
+        contract_starts_at: contract_starts_at  #g
+        aggregations: aggregations  #g
+        plan: :activerecord.models.plan  #g
+        contract_interval: contract_interval  #g
+        number_of_available_chat_users_per_month: number_of_available_chat_users_per_month  #g
+        number_of_days_to_display_alerts_until_update_date: number_of_days_to_display_alerts_until_update_date  #g
+        contract_amount: contract_amount  #g
+        contract_currency: contract_currency  #g
+        status: status  #g
+        installed_android: installed_android  #g
+        installed_ios: installed_ios  #g
+        installed_web: installed_web  #g
+        company: :activerecord.models.company  #g
+        disabled_at: disabled_at  #g
+        failed_at: failed_at  #g
+
+      app/funnels:
+        name: Funnel name  #g
+        order: Funnel order  #g
+        channel_count: channel_count  #g
+
+      app/sticker_apps:
+        sticker_id: Widget  #g
+
+      app/app_icons:
+        icon: Image  #g
+
+      app_user:
+        app: :activerecord.models.app  #g
+        role_app_users: role_app_users  #g
+        roles: roles  #g
+        user: :activerecord.models.user  #g
+        schedules: schedules  #g
+        devices: devices  #g
+        guest: guest  #g
+
+      channel:
+        channel_users: channel_users  #g
+        deleted_at: deleted_at  #g
+        messages: messages  #g
+        org: :activerecord.models.org  #g
+        status: status  #g
+        uid: uid  #g
+        users: users  #g
+        channel_informations: channel_informations  #g
+        latest_message: :activerecord.models.latest_message  #g
+        store: :activerecord.models.store  #g
+        email_sent_at: email_sent_at  #g
+        read: read  #g
+        assignee: :activerecord.models.assignee  #g
+        direct_message: direct_message  #g
+        inquiry_logs: inquiry_logs  #g
+        last_updated_at: last_updated_at  #g
+        name: name  #g
+        funnel: :activerecord.models.funnel  #g
+        channel_note: :activerecord.models.channel_note  #g
+        note: :activerecord.models.note  #g
+        channel_user_unread_messages: channel_user_unread_messages  #g
+        channel_users_sort_by_latest_message_id: channel_users_sort_by_latest_message_id  #g
+
+      channel_user:
+        channel: :activerecord.models.channel  #g
+        last_read_message: last_read_message  #g
+        receipt: receipt  #g
+        user: :activerecord.models.user  #g
+        unread_messages: unread_messages  #g
+        email_sent_at: email_sent_at  #g
+        archived_at: archived_at  #g
+        latest_message: :activerecord.models.latest_message  #g
+
+      customer:
+        app_users: app_users  #g
+        apps: apps  #g
+        authentication_token: authentication_token  #g
+        authentication_ttl: authentication_ttl  #g
+        blocked: blocked  #g
+        channel_users: channel_users  #g
+        channels: channels  #g
+        confirmation_sent_at: confirmation_sent_at  #g
+        confirmation_token: confirmation_token  #g
+        confirmed_at: confirmed_at  #g
+        current_sign_in_at: current_sign_in_at  #g
+        current_sign_in_ip: current_sign_in_ip  #g
+        customer_reports: customer_reports  #g
+        deleted_at: deleted_at  #g
+        display_name: display name  #g
+        email: email  #g
+        email_opt_in: email_opt_in  #g
+        encrypted_password: encrypted_password  #g
+        family_name: family_name  #g
+        first_name: first_name  #g
+        icon: icon  #g
+        invitation_accepted_at: invitation_accepted_at  #g
+        invitation_created_at: invitation_created_at  #g
+        invitation_limit: invitation_limit  #g
+        invitation_sent_at: invitation_sent_at  #g
+        invitation_token: invitation_token  #g
+        invited_by: :activerecord.models.invited_by  #g
+        invited_by_type: invited_by_type  #g
+        last_sign_in_at: last_sign_in_at  #g
+        last_sign_in_ip: last_sign_in_ip  #g
+        mobile_number: phone_number  #g
+        name: Name  #g
+        note: note  #g
+        offline_at: offline_at  #g
+        online_at: online_at  #g
+        org_users: org_users  #g
+        orgs: orgs  #g
+        remember_created_at: remember_created_at  #g
+        reset_password_sent_at: reset_password_sent_at  #g
+        reset_password_token: reset_password_token  #g
+        role_users: role_users  #g
+        roles: roles  #g
+        status: Status  #g
+        tag_users: tag_users  #g
+        tags: tags  #g
+        tmp_email: email  #g
+        username: username  #g
+        provider: provider  #g
+        uid: uid  #g
+        user_configs: user_configs  #g
+        user_user_configs: user_user_configs  #g
+        failed_attempts: failed_attempts  #g
+        locked_at: locked_at  #g
+        password_updated_at: password_updated_at  #g
+        providers: providers  #g
+        unlock_token: unlock_token  #g
+        authentication_token_expires_at: authentication_token_expires_at  #g
+        questions: questions  #g
+        opportunity_appointments: opportunity_appointments  #g
+        opportunity_competitors: opportunity_competitors  #g
+        schedules: schedules  #g
+        answers: answers  #g
+        devices: devices  #g
+        inquiry_logs: inquiry_logs  #g
+        locale: locale  #g
+        fixed_phrase_users: fixed_phrase_users  #g
+        fixed_phrases: fixed_phrases  #g
+        last_access_at: last_access_at  #g
+        user_email_status: :activerecord.models.user_email_status  #g
+        supports_video_chat: supports_video_chat  #g
+        created_at: Signed up  #g
+        funnel: Funnel
+        last_seen: Last seen
+        last_updated_at: Last updated
+
+        unassigned: Unassigned
+        assigned: Assigned
+        closed: Closed
+        date:
+          yesterday: "Yesterday"
+          today: "%I:%M %p"
+          day_ago: "%B %-d"
+          year_ago: "%b %-d, %Y"
+
+        channel_user_unread_messages: channel_user_unread_messages  #g
+        eca_rules: eca_rules  #g
+        password_salt: password_salt  #g
+        providers_facebook: providers_facebook  #g
+        providers_google: providers_google  #g
+        providers_twitter: providers_twitter  #g
+        providers_yahoojp: providers_yahoojp  #g
+        user_authentication_tokens: user_authentication_tokens  #g
+        address: address  #g
+        postal_code: postal_code  #g
+
+      customer_report:
+        note: note  #g
+        reason: reason  #g
+        user: :activerecord.models.customer  #g
+
+      message:
+        channel: :activerecord.models.channel  #g
+        content: content  #g
+        deleted_at: deleted_at  #g
+        meta: meta  #g
+        reply_to: :activerecord.models.reply_to  #g
+        type: type  #g
+        user: :activerecord.models.user  #g
+        user_read_messages: user_read_messages  #g
+        users_read_message: users_read_message  #g
+        answer: :activerecord.models.answer  #g
+        message_upload_files: message_upload_files  #g
+        question: :activerecord.models.question  #g
+        question_message: :activerecord.models.question_message  #g
+        upload_files: upload_files  #g
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        location_histories: location_histories  #g
+
+      org:
+        ancestry: ancestry  #g
+        app: :activerecord.models.app  #g
+        channels: channels  #g
+        deleted_at: deleted_at  #g
+        name: name  #g
+        org_users: org_users  #g
+        uid: uid  #g
+        users: users  #g
+        org_configs: org_configs  #g
+        org_org_configs: org_org_configs  #g
+        parent: parent  #g
+        phone_number: Phone Number  #g
+        can_have_descendants: can_have_descendants  #g
+        icon: icon  #g
+        agents: agents  #g
+        members: Members  #g
+        guests: Guests  #g
+        address: Address  #g
+        inquiry_logs: inquiry_logs  #g
+        fixed_phrase_orgs: fixed_phrase_orgs  #g
+        fixed_phrases: fixed_phrases  #g
+        recipe_condition_orgs: recipe_condition_orgs  #g
+        debug: debug  #g
+        options: Options
+        team: Team
+        eca_rules: eca_rules  #g
+
+      org/org_org_configs:
+        config_value: Org config value  #g
+
+      org_user:
+        default: default  #g
+        org: :activerecord.models.org  #g
+        user: :activerecord.models.user  #g
+
+      privilege:
+        action: action  #g
+        deleted_at: deleted_at  #g
+        model: model  #g
+        role_privileges: role_privileges  #g
+        roles: roles  #g
+
+      role:
+        app: :activerecord.models.app  #g
+        app_users: app_users  #g
+        deleted_at: deleted_at  #g
+        name: name  #g
+        privileges: privileges  #g
+        rank: rank  #g
+        role_app_users: role_app_users  #g
+        role_privileges: role_privileges  #g
+        role_users: role_users  #g
+        uid: uid  #g
+        users: users  #g
+
+      role_app_user:
+        app_user: :activerecord.models.app_user  #g
+        role: :activerecord.models.role  #g
+
+      role_privilege:
+        privilege: :activerecord.models.privilege  #g
+        role: :activerecord.models.role  #g
+
+      role_user:
+        role: :activerecord.models.role  #g
+        user: :activerecord.models.user  #g
+
+      sticker:
+        name: name  #g
+        apps: apps  #g
+        sticker_apps: widget_apps  #g
+        select_title: Widget Availability
+        sub_select_title: Edit the parameters of the predefined manual widgets.
+        create: Create custom widgets
+        sub_create_html: "Do you have an idea for a fixed widget? Please <a class='' href='%{url}'>Contact us</a>."
+        submit: submit
+        save_changes: Save Changes
+
+      sticker_app:
+        app: :activerecord.models.app  #g
+        sticker: :activerecord.models.widget  #g
+        admin: admin  #g
+        guest: guest  #g
+
+      tag:
+        name: name  #g
+        users: users  #g
+
+      tag_user:
+        tag: :activerecord.models.tag  #g
+        user: :activerecord.models.user  #g
+
+      user:
+        app_users: app_users  #g
+        apps: apps  #g
+        authentication_token: authentication_token  #g
+        authentication_ttl: authentication_ttl  #g
+        blocked: blocked  #g
+        channel_users: channel_users  #g
+        channels: channels  #g
+        confirmation_sent_at: confirmation_sent_at  #g
+        confirmation_token: confirmation_token  #g
+        confirmed_at: confirmed_at  #g
+        current_sign_in_at: current_sign_in_at  #g
+        current_sign_in_ip: current_sign_in_ip  #g
+        customer_reports: customer_reports  #g
+        deleted_at: deleted_at  #g
+        display_name: display_name  #g
+        email: Email  #g
+        email_opt_in: email_opt_in  #g
+        encrypted_password: encrypted_password  #g
+        family_name: Last Name  #g
+        first_name: First Name  #g
+        icon: icon  #g
+        invitation_accepted_at: invitation_accepted_at  #g
+        invitation_created_at: invitation_created_at  #g
+        invitation_limit: invitation_limit  #g
+        invitation_sent_at: invitation_sent_at  #g
+        invitation_token: invitation_token  #g
+        invited_by: :activerecord.models.invited_by  #g
+        invited_by_type: invited_by_type  #g
+        last_sign_in_at: last_sign_in_at  #g
+        last_sign_in_ip: last_sign_in_ip  #g
+        mobile_number: Phone Number  #g
+        name: display name  #g
+        note: note  #g
+        offline_at: offline_at  #g
+        online_at: online_at  #g
+        org_users: org_users  #g
+        orgs: orgs  #g
+        remember_created_at: remember_created_at  #g
+        reset_password_sent_at: reset_password_sent_at  #g
+        reset_password_token: reset_password_token  #g
+        role_users: role_users  #g
+        roles: Role  #g
+        status: status  #g
+        tag_users: tag_users  #g
+        tags: tags  #g
+        tmp_email: email  #g
+        username: username  #g
+        provider: provider  #g
+        uid: uid  #g
+        user_configs: user_configs  #g
+        user_user_configs: user_user_configs  #g
+        failed_attempts: failed_attempts  #g
+        locked_at: locked_at  #g
+        password_updated_at: password_updated_at  #g
+        providers: providers  #g
+        unlock_token: unlock_token  #g
+        authentication_token_expires_at: authentication_token_expires_at  #g
+        items: items
+        questions: questions  #g
+        opportunity_appointments: opportunity_appointments  #g
+        opportunity_competitors: opportunity_competitors  #g
+        schedules: schedules  #g
+        answers: answers  #g
+        devices: devices  #g
+        full_name: full_name  #g
+        invitees_csv: CSV file  #g
+        inquiry_logs: inquiry_logs  #g
+        locale: locale  #g
+        fixed_phrase_users: fixed_phrase_users  #g
+        fixed_phrases: fixed_phrases  #g
+        last_access_at: last_access_at  #g
+        user_email_status: :activerecord.models.user_email_status  #g
+        supports_video_chat: supports_video_chat  #g
+        channel_user_unread_messages: channel_user_unread_messages  #g
+        eca_rules: eca_rules  #g
+        password_salt: password_salt  #g
+        providers_facebook: providers_facebook  #g
+        providers_google: providers_google  #g
+        providers_twitter: providers_twitter  #g
+        providers_yahoojp: providers_yahoojp  #g
+        user_authentication_tokens: user_authentication_tokens  #g
+        address: address  #g
+        postal_code: postal_code  #g
+
+      user/user_user_configs:
+        config_value: User config value  #g
+
+      user_read_message:
+        message: :activerecord.models.message  #g
+        user: :activerecord.models.user  #g
+
+      app_org_config:
+        app: :activerecord.models.app  #g
+        org_config: :activerecord.models.org_config  #g
+
+      org_config:
+        app: :activerecord.models.app  #g
+        config_key: config_key  #g
+        deleted_at: deleted_at  #g
+        org_org_configs: org_org_configs  #g
+        orgs: orgs  #g
+
+      org_org_config:
+        org: :activerecord.models.org  #g
+        org_config: :activerecord.models.org_config  #g
+        config_value: config_value  #g
+
+      user_config:
+        app: :activerecord.models.app  #g
+        config_key: config_key  #g
+        deleted_at: deleted_at  #g
+        user_user_configs: user_user_configs  #g
+        users: users  #g
+
+      user_user_config:
+        user: :activerecord.models.user  #g
+        user_config: :activerecord.models.user_config  #g
+        config_value: config_value  #g
+
+      channel_information:
+        deleted_at: deleted_at  #g
+        key: key  #g
+        value: value  #g
+        channel: :activerecord.models.channel  #g
+        updated_by: :activerecord.models.updated_by  #g
+
+      provider:
+        instance_url: instance_url  #g
+        provider: provider  #g
+        refresh_token: refresh_token  #g
+        token: token  #g
+        token_secret: token_secret  #g
+        uid: uid  #g
+        user: :activerecord.models.user  #g
+        deleted_at: deleted_at  #g
+
+      store:
+        deleted_at: deleted_at  #g
+        channel: :activerecord.models.channel  #g
+
+      white_list:
+        deleted_at: deleted_at  #g
+        ip_address: ip_address  #g
+        role: :activerecord.models.role  #g
+        app: :activerecord.models.app  #g
+
+      schedule:
+        ends_at: ends_at  #g
+        notifies_before: notifies_before  #g
+        starts_at: starts_at  #g
+        app: :activerecord.models.app  #g
+        location: location  #g
+        title: title  #g
+        user: :activerecord.models.user  #g
+        sent_at: sent_at  #g
+
+      app_icon:
+        icon: icon  #g
+        name: name  #g
+        app: :activerecord.models.app  #g
+
+      app_role:
+        role: :activerecord.models.role  #g
+        app: :activerecord.models.app  #g
+
+      opportunity_appointment:
+        appointment_type: appointment_type  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+
+      opportunity_competitor:
+        competitor_name: competitor_name  #g
+        competitor_price: competitor_price  #g
+        competitor_applicant_number: competitor_applicant_number  #g
+        competitor_hired_number: competitor_hired_number  #g
+        competitor_data: competitor_data  #g
+        competitor_image: competitor_image  #g
+        opportunity_impression: opportunity_impression  #g
+        opportunity_memo: opportunity_memo  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+        competitor_image_other: competitor_image_other  #g
+        competitor_name_other: competitor_name_other  #g
+
+      question:
+        id: question_id  #g
+        type: question_type  #g
+        title: title  #g
+        user: questioner  #g
+        description: description  #g
+        answers: answers  #g
+        question_selections: question_selections  #g
+        selection: selection #g
+        question_recipient: question_recipient #g
+        created_at: questioned_at #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      question_selection:
+        selection: selection  #g
+        question_type: question_type  #g
+
+      question_yes_no:
+        id: question_id  #g
+        title: title  #g
+        user: questioner  #g
+        answers: answers  #g
+        description: description  #g
+        question_selections: question_selections  #g
+        question_recipient: question_recipient #g
+        question_recipient_count: question_recipient_count #g
+        created_at: questioned_at #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      answer:
+        answer_type: answer_type  #g
+        user: :activerecord.models.user  #g
+        answer_text: answer_text  #g
+        question: :activerecord.models.question  #g
+        created_at: answered_at  #g
+        content: answer_content  #g
+        count_yes: Number of "Yes"
+        count_no: Number of "No"
+        message: :activerecord.models.message  #g
+
+      question_free:
+        description: description  #g
+        question_selections: question_selections  #g
+        title: title  #g
+        user: :activerecord.models.user  #g
+        answers: answers  #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      question_multi:
+        description: description  #g
+        question_selections: question_selections  #g
+        title: title  #g
+        user: :activerecord.models.user  #g
+        answers: answers  #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      question_single:
+        description: description  #g
+        question_selections: question_selections  #g
+        title: title  #g
+        user: :activerecord.models.user  #g
+        answers: answers  #g
+        messages: messages  #g
+        question_messages: question_messages  #g
+
+      notification:
+        app_notifications: app_notifications  #g
+        apps: apps  #g
+        name: name  #g
+
+      app_notification:
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+        notification: :activerecord.models.notification  #g
+
+      device:
+        device_type: device_type  #g
+        device_token: device_token  #g
+        sign_in_at: sign_in_at  #g
+        sign_out_at: sign_out_at  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+        mobile_push_type: mobile_push_type  #g
+        multiple: multiple  #g
+        user_authentication_token: :activerecord.models.user_authentication_token  #g
+
+      mobile_push_endpoint:
+        device_type: device_type  #g
+        endpoint: endpoint  #g
+        mobile_push_type: mobile_push_type  #g
+        app: :activerecord.models.app  #g
+        multiple: multiple  #g
+        ssl_certificate: SSL certificate  #g
+        private_key: Private key  #g
+        api_key: API key  #g
+        sandbox: サンドボックス  #g
+
+      inquiry_log:
+        org: :activerecord.models.org  #g
+        user: :activerecord.models.user  #g
+        channel: :activerecord.models.channel  #g
+        inquiry_group_cd: inquiry_group_cd  #g
+
+      message_upload_file:
+        upload_file: :activerecord.models.upload_file  #g
+        message: :activerecord.models.message  #g
+
+      question_message:
+        question: :activerecord.models.question  #g
+        message: :activerecord.models.message  #g
+
+      upload_file:
+        attachment_file_name: attachment_file_name  #g
+        attachment_content_type: attachment_content_type  #g
+        attachment_file_size: attachment_file_size  #g
+        attachment_updated_at: attachment_updated_at  #g
+        message: :activerecord.models.message  #g
+        message_upload_file: :activerecord.models.message_upload_file  #g
+
+      recipe:
+        app: :activerecord.models.app  #g
+        title: title  #g
+        description: description  #g
+        enabled: enabled  #g
+        recipe_trigger: :activerecord.models.recipe_trigger  #g
+        recipe_conditions: recipe_condition  #g
+        recipe_actions: recipe_action  #g
+        recipe_histories: recipe_history  #g
+
+      recipe/recipe_conditions:
+        condition_type: condition_type  #g
+
+      recipe/recipe_conditions/recipe_condition_datetime:
+        repeat_type: repeat_type  #g
+        repeat_detail: repeat_detail  #g
+        condition_time: condition_time  #g
+        timezone_offset: timezone_offset  #g
+
+      recipe/recipe_conditions/recipe_condition_org:
+        org: :activerecord.models.org  #g
+
+      recipe/recipe_actions:
+        action_type: action_type  #g
+
+      recipe/recipe_actions/recipe_action_email:
+        email_type: email_type  #g
+
+      recipe/recipe_actions/recipe_action_message:
+        user: :activerecord.models.user  #g
+        message_type: message_type  #g
+        message_content: message_content  #g
+        delay_seconds: delay_seconds  #g
+
+      recipe_trigger:
+        recipe: :activerecord.models.recipe  #g
+        trigger_type: trigger_type  #g
+
+      recipe_condition:
+        recipe: :activerecord.models.recipe  #g
+        condition_type: condition_type  #g
+        recipe_condition_datetime: :activerecord.models.recipe_condition_datetime  #g
+        recipe_condition_org: :activerecord.models.recipe_condition_org  #g
+
+      recipe_condition_datetime:
+        recipe_condition: :activerecord.models.recipe_condition  #g
+        repeat_type: repeat_type  #g
+        repeat_detail: repeat_detail  #g
+        condition_time: condition_time  #g
+        timezone_offset: timezone_offset  #g
+
+      recipe_condition_org:
+        recipe_condition: :activerecord.models.recipe_condition  #g
+        org: :activerecord.models.org  #g
+
+      recipe_condition_role:
+        recipe_condition: :activerecord.models.recipe_condition  #g
+        role: :activerecord.models.role  #g
+
+      recipe_condition_not_access:
+        not_access_months: アクセスしていない期間(月)  #g
+        recipe_condition: :activerecord.models.recipe_condition  #g
+
+      recipe_action:
+        recipe: :activerecord.models.recipe  #g
+        action_type: action_type  #g
+        recipe_action_email: :activerecord.models.recipe_action_email  #g
+        recipe_action_message: :activerecord.models.recipe_action_message  #g
+        recipe_action_delete_user: :activerecord.models.recipe_action_delete_user  #g
+
+      recipe_action_email:
+        recipe_action: :activerecord.models.recipe_action  #g
+        email_type: email_type  #g
+
+      recipe_action_message:
+        recipe_action: :activerecord.models.recipe_action  #g
+        user: :activerecord.models.user  #g
+        message_type: message_type  #g
+        message_content: message_content  #g
+        delay_seconds: delay_seconds  #g
+
+      recipe_action_delete_user:
+        recipe_action: :activerecord.models.recipe_action  #g
+        delete_user_type: delete_user_type  #g
+        recipe_action_delete_user_not_access: :activerecord.models.recipe_action_delete_user_not_access  #g
+
+      recipe_action_delete_user_not_access:
+        recipe_action_delete_user: :activerecord.models.recipe_action_delete_user  #g
+        recipe_action_delete_user_not_access_roles: recipe_action_delete_user_not_access_roles  #g
+        not_access_months: not_access_months  #g
+        roles: role  #g
+
+      recipe_action_delete_user_not_access_role:
+        recipe_action_delete_user_not_access: :activerecord.models.recipe_action_delete_user_not_access  #g
+        role: :activerecord.models.role  #g
+
+      recipe_history:
+        recipe: :activerecord.models.recipe  #g
+        started_at: started_at  #g
+        ended_at: ended_at  #g
+        success: success  #g
+
+      funnel:
+        channel: :activerecord.models.channel  #g
+        order: order  #g
+        name: name  #g
+        channel_count: channel_count  #g
+        app: :activerecord.models.app  #g
+        channels: channels  #g
+
+      coupon:
+        id: id
+        duration: duration
+        duration_in_months: duration in months
+
+        off: off
+        choose_off: Choose percent off or amount off
+        percent_off: percent off
+        amount_off: amount off
+        show: show
+        months: months
+        created: created
+        currency: currency
+        valid: valid
+        repeating: repeating
+        forever: forever
+        once: once
+        choose_duration: Choose duration
+        error_id: id existed
+        error_choose_off: Please choose percent off or amount off
+        error_duration_in_months: Error duration in months
+        error_choose_duration: Please choose duration
+        error_percent_off: Error Percent off Error
+        error_amount_off: Error Amount off
+        create_successfully: Create successfully
+        edit_successfully: Edit successfully
+        edit_fails: Edit fails
+        show_more: show more
+
+      fixed_phrase:
+        content: content  #g
+        content_type: content_type  #g
+        fixed_phrase_orgs: fixed_phrase_orgs  #g
+        fixed_phrase_users: fixed_phrase_users  #g
+        orgs: orgs  #g
+        users: users  #g
+        apps: apps  #g
+        description: description  #g
+        fixed_phrase_apps: fixed_phrase_apps  #g
+        messages: messages  #g
+        owner_user: :activerecord.models.owner_user  #g
+        eca_actions: eca_actions  #g
+        eca_conditions: eca_conditions  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+
+      fixed_phrase_org:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        org: :activerecord.models.org  #g
+
+      fixed_phrase_user:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        app: :activerecord.models.app  #g
+        user: :activerecord.models.user  #g
+
+      widget_config:
+        app: :activerecord.models.app  #g
+        org: :activerecord.models.org  #g
+        default_style: Coversation Window Style  #g
+        hide_times: Hide times  #g
+        allowed_url: Allowed URLs  #g
+        register_params: Register Params  #g
+        first_name_field_required: First Name  #g
+        family_name_field_required: Family Name  #g
+        email_field_required: Email  #g
+        mobile_number_field_required: Mobile Number  #g
+        address_field_required: Address  #g
+        font_size: Text Size  #g
+        save_the_configurations: Save the configurations
+        description1: description1  #g
+        description2: description2  #g
+        privacy_policy_url: privacy_policy_url  #g
+        start_button: start_button  #g
+        terms_of_service_url: terms_of_service_url  #g
+        title: title  #g
+        input_items: input_items  #g
+
+      user_email_status:
+        user: :activerecord.models.user  #g
+        status: status  #g
+        reject_reason: reject_reason  #g
+        reject_detail: reject_detail  #g
+
+      channel_note:
+        channel: :activerecord.models.channel  #g
+        note: :activerecord.models.note  #g
+
+      note:
+        channel_note: :activerecord.models.channel_note  #g
+        content: content  #g
+        channel: :activerecord.models.channel  #g
+
+      always:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      assign_user:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      channel_user_unread_message:
+        channel: :activerecord.models.channel  #g
+        last_read_message: last_read_message  #g
+        unread_messages: unread_messages  #g
+        user: :activerecord.models.user  #g
+
+      eca_action:
+        delay_seconds: delay_seconds  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      eca_condition:
+        condition_string: condition_string  #g
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      eca_event:
+        eca_rule: :activerecord.models.eca_rule  #g
+        rule_description: rule_description  #g
+
+      eca_rule:
+        belongs_to: belongs_to  #g
+        eca_actions: eca_actions  #g
+        eca_conditions: eca_conditions  #g
+        eca_event: :activerecord.models.eca_event  #g
+        enabled: enabled  #g
+        org: :activerecord.models.org  #g
+        owner_user: :activerecord.models.owner_user  #g
+        title: title  #g
+        useage_type: useage_type  #g
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+
+      fixed_phrase_app:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        app: :activerecord.models.app  #g
+
+      in_app_custom_event:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_app_focus_to_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_app_open_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_close_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_fixed_sticker_action_selected:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_funnel_moved:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_funnel_moved_from:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_funnel_moved_to:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_open_chat:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_receive_message:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_receive_sticker:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_recipe_replied:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_sent_message:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_sent_sticker:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_sticker_action_selected:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      in_channel_triggered_by_recipe:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      locations:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      move_funnel:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      no_response:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      out_app_scheduled_batch:
+        rule_description: rule_description  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+
+      payment:
+        owner_user: :activerecord.models.owner_user  #g
+        app: :activerecord.models.app  #g
+
+      response_match:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      send_message:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      send_suggestion:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      shortened_url:
+        clicked: clicked  #g
+        long_url: long_url  #g
+        short_url: short_url  #g
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+
+      specified_funnel_from:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_funnel_position:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_funnel_to:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_time_elapsed:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      specified_time_range:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      string_match:
+        condition_time: condition_time  #g
+        eca_rule: :activerecord.models.eca_rule  #g
+        extra: extra  #g
+        op: op  #g
+        org: :activerecord.models.org  #g
+        repeat_detail: repeat_detail  #g
+        repeat_type: repeat_type  #g
+        rule_description: rule_description  #g
+        timezone_offset: timezone_offset  #g
+        condition_string: condition_string  #g
+        fixed_phrase_eca_conditions: fixed_phrase_eca_conditions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      suggestion:
+        belongs_to: belongs_to  #g
+        eca_actions: eca_actions  #g
+        eca_conditions: eca_conditions  #g
+        eca_event: :activerecord.models.eca_event  #g
+        enabled: enabled  #g
+        org: :activerecord.models.org  #g
+        owner_user: :activerecord.models.owner_user  #g
+        title: title  #g
+        useage_type: useage_type  #g
+        user: :activerecord.models.user  #g
+        app: :activerecord.models.app  #g
+
+      trigger_recipe:
+        eca_rule: :activerecord.models.eca_rule  #g
+        email_type: email_type  #g
+        extra: extra  #g
+        message_content: message_content  #g
+        message_type: message_type  #g
+        rule_description: rule_description  #g
+        user: :activerecord.models.user  #g
+        delay_seconds: delay_seconds  #g
+        fixed_phrase_eca_actions: fixed_phrase_eca_actions  #g
+        fixed_phrases: fixed_phrases  #g
+
+      user_authentication_token:
+        authentication_token: authentication_token  #g
+        authentication_token_expires_at: authentication_token_expires_at  #g
+        authentication_ttl: authentication_ttl  #g
+        device: :activerecord.models.device  #g
+        user: :activerecord.models.user  #g
+        web_push_subscription: :activerecord.models.web_push_subscription  #g
+
+      web_push_subscription:
+        endpoint: endpoint  #g
+        keys: keys  #g
+        sign_in_at: sign_in_at  #g
+        sign_out_at: sign_out_at  #g
+        user: :activerecord.models.user  #g
+        user_authentication_token: :activerecord.models.user_authentication_token  #g
+        app: :activerecord.models.app  #g
+
+      location_history:
+        message: :activerecord.models.message  #g
+        user: :activerecord.models.user  #g
+        location: location  #g
+
+      delivery:
+        all_count: all_count  #g
+        chat_count: chat_count  #g
+        delivery_details: delivery_details  #g
+        org: :activerecord.models.org  #g
+        uploaded_at: uploaded_at  #g
+        deleted_at: deleted_at  #g
+        deliveries_csv: CSV file  #g
+        file_name: file_name  #g
+
+      delivery_detail:
+        delivery: :activerecord.models.delivery  #g
+        delivery_status: delivery_status  #g
+        mobile_number: mobile_number  #g
+        slip_number: slip_number  #g
+        user: :activerecord.models.user  #g
+        deleted_at: deleted_at  #g
+        aggregate_date: aggregate_date  #g
+        delivery_date: delivery_date  #g
+        delivery_time: delivery_time  #g
+
+      fixed_phrase_eca_action:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        eca_action: :activerecord.models.eca_action  #g
+
+      fixed_phrase_eca_condition:
+        fixed_phrase: :activerecord.models.fixed_phrase  #g
+        eca_condition: :activerecord.models.eca_condition  #g
+
+      aggregation:
+        app: :activerecord.models.app  #g
+        day: day  #g
+        month: month  #g
+        number_of_available_chat_users: number_of_available_chat_users  #g
+        year: year  #g
+
+      plan:
+        apps: apps  #g
+        contract_interval: contract_interval  #g
+        deleted_at: deleted_at  #g
+        number_of_available_chat_users_per_month: number_of_available_chat_users_per_month  #g
+        uid: uid  #g
+
+      delivery_pattern:
+        deleted_at: deleted_at  #g
+        delivery_pattern_details: delivery_pattern_details  #g
+        name: name  #g
+        org: :activerecord.models.org  #g
+        selected: selected  #g
+        delivery_patterns_csv: CSV file  #g
+
+      delivery_pattern_detail:
+        deleted_at: deleted_at  #g
+        delivery_pattern: :activerecord.models.delivery_pattern  #g
+        admin_user: :activerecord.models.admin_user  #g
+        guest_user: :activerecord.models.guest_user  #g
+
+      company:
+        apps: apps  #g
+        deleted_at: deleted_at  #g
+        name: Company name  #g
+        phone_number: Phone number  #g
+
+  users:
+    payments:
+      new_app:
+        title: Create an application
+        description_html: "You  are currently not associated with any application within ChatCenter iO.<br/>Let's create an application so you can start using ChatCenter iO."
+        company_name: Company Name
+        create_application: Create an application
+        create_app: Create app
+        phone_number: Phone Number
+
+      create_app:
+        notice: App was successfully created.
+
+  admin:
+    fixed_phrases:
+      index:
+        title: Saved Widgets
+
+    coupons:
+      show:
+      confirm: Are you sure?
+
+    apps:
+      index:
+        title: List apps
+        confirm: Are you sure?
+
+      show:
+        title: Show app
+        confirm: Are you sure?
+
+      edit:
+        title: App Settings
+        advance_setting: Advanced Settings
+        integration_setting: Integration Settings
+        subtitle: Edit the parameters and make ChatCenter iO suit your needs.
+        allow_nomessage: When the channel (chat room) is created; opend
+        not_allow_nomessage: When the customer send its first message
+        notificaion:
+          mail: Mail
+          web_push: Web Push
+          mobile_push: Mobile Push
+          sms: SMS
+
+      update:
+        title: App Settings
+        subtitle: Edit the parameters and make ChatCenter iO suit your needs.
+        notice: App was successfully updated.
+
+      new:
+        title: New app
+
+      create:
+        title: New app
+        notice: App was successfully created.
+
+      destroy:
+        notice: App was successfully destroyed.
+
+      disable:
+        notice: App was successfully disabled.
+
+      cancel_subscription:
+        notice: App was successfully canceled subscription.
+
+    customer_reports:
+      index:
+        title: List customer reports
+
+      show:
+        title: Show customer report
+
+    customers:
+      index:
+        title: Customers
+        confirm: Are you sure?
+
+      show:
+        title: Show customer
+        confirm: Are you sure?
+
+      edit:
+        title: Edit customer
+
+      update:
+        title: Edit customer
+        notice: Customer was successfully updated.
+
+    orgs:
+      index:
+        title: Teams & Members
+        confirm: Are you sure?
+
+      show:
+        title: Show Teams and Members
+        confirm: Are you sure?
+
+      edit:
+        title: Edit Teams
+
+      update:
+        title: Update Teams and Members
+        notice: Org was successfully updated.
+
+      new:
+        title: Creat New Team
+
+      create:
+        title: Add New Team
+        notice: Org was successfully created.
+
+      destroy:
+        notice: Org was successfully destroyed.
+
+    privileges:
+      index:
+        title: List privileges
+        confirm: Are you sure?
+
+      show:
+        title: Show privilege
+        confirm: Are you sure?
+
+      edit:
+        title: Edit privilege
+
+      update:
+        title: Edit privilege
+        notice: Privilege was successfully updated.
+
+      new:
+        title: New privilege
+
+      create:
+        title: New privilege
+        notice: Privilege was successfully created.
+
+      destroy:
+        notice: Privilege was successfully destroyed.
+
+    reports:
+      index:
+        title: List reports
+
+    stickers:
+      index:
+        title: Widget Availability
+
+      update_sticker_apps:
+        title: Edit widget
+        notice: Widget Availability was successfully updated.
+
+    suggestions:
+      index:
+        title: Suggestions
+
+      me:
+        title: Suggestions
+
+    roles:
+      index:
+        title: List roles
+        confirm: Are you sure?
+
+      show:
+        title: Show role
+        confirm: Are you sure?
+
+      edit:
+        title: Edit role
+
+      update:
+        title: Edit role
+        notice: Role was successfully updated.
+
+      new:
+        title: New role
+
+      create:
+        title: New role
+        notice: Role was successfully created.
+
+      destroy:
+        notice: Role was successfully destroyed.
+
+    users:
+      index:
+        title: Members
+        confirm: Are you sure?
+
+      show:
+        title: Show user
+        confirm: Are you sure?
+
+      edit:
+        title: Edit user
+
+      update:
+        title: Edit user
+        notice: User was successfully updated.
+
+      new:
+        title: New user
+
+      create:
+        title: New user
+        notice: User was successfully created.
+
+      destroy:
+        notice: User was successfully destroyed.
+
+    white_lists:
+      index:
+        title: List white lists
+        confirm: Are you sure?
+
+      show:
+        title: Show white list
+        confirm: Are you sure?
+
+      edit:
+        title: Edit white list
+
+      update:
+        title: Edit white list
+        notice: White list was successfully updated.
+
+      new:
+        title: New white list
+
+      create:
+        title: New white list
+        notice: White list was successfully created.
+
+      destroy:
+        notice: White list was successfully destroyed.
+
+    opportunity_appointments:
+      index:
+        title: List opportunity appointments
+        confirm: Are you sure?
+
+      show:
+        title: Show opportunity appointment
+        confirm: Are you sure?
+
+      edit:
+        title: Edit opportunity appointment
+
+      update:
+        title: Edit opportunity appointment
+        notice: Opportunity appointment was successfully updated.
+
+      new:
+        title: New opportunity appointment
+
+      create:
+        title: New opportunity appointment
+        notice: Opportunity appointment was successfully created.
+
+      destroy:
+        notice: Opportunity appointment was successfully destroyed.
+
+    opportunity_competitors:
+      index:
+        title: List opportunity competitors
+        confirm: Are you sure?
+
+      show:
+        title: Show opportunity competitor
+        confirm: Are you sure?
+
+      edit:
+        title: Edit opportunity competitor
+
+      update:
+        title: Edit opportunity competitor
+        notice: Opportunity competitor was successfully updated.
+
+      new:
+        title: New opportunity competitor
+
+      create:
+        title: New opportunity competitor
+        notice: Opportunity competitor was successfully created.
+
+      destroy:
+        notice: Opportunity competitor was successfully destroyed.
+
+    schedules:
+      index:
+        title: List schedules
+        confirm: Are you sure?
+
+      show:
+        title: Show schedule
+        confirm: Are you sure?
+
+      edit:
+        title: Edit schedule
+
+      update:
+        title: Edit schedule
+        notice: Schedule was successfully updated.
+
+      new:
+        title: New schedule
+
+      create:
+        title: New schedule
+        notice: Schedule was successfully created.
+
+      destroy:
+        notice: Schedule was successfully destroyed.
+
+    recipes:
+      index:
+        title: List recipes
+        confirm: Are you sure?
+
+      show:
+        title: Show recipe
+        confirm: Are you sure?
+
+      edit:
+        title: Edit recipe
+
+      update:
+        title: Edit recipe
+        notice: Recipe was successfully updated.
+
+      new:
+        title: New recipe
+
+      create:
+        title: New recipe
+        notice: Recipe was successfully created.
+
+      destroy:
+        notice: Recipe was successfully destroyed.
+
+    recipe_steps:
+      show:
+        title: New recipe
+
+      update:
+        title: New recipe
+        notice: Recipe was successfully created.
+
+    ecarules:
+      index:
+        title: Automations
+
+      me:
+        title: Automations
+
+      show:
+        title: Show ecarule
+
+      edit:
+        title: Edit ecarule
+
+      update:
+        title: Edit ecarule
+        notice: Ecarule was successfully updated.
+
+      new:
+        title: New ecarule
+
+      create:
+        title: New ecarule
+        notice: Ecarule was successfully created.
+
+      destroy:
+        notice: ecarule was successfully destroyed.
+
+    widget_configs:
+      index:
+        title: List widget configs
+        confirm: Are you sure?
+
+      show:
+        title: Show widget config
+        confirm: Are you sure?
+
+      edit:
+        title: Edit widget config
+
+      update:
+        title: Edit widget config
+        notice: Widget config was successfully updated.
+
+      new:
+        title: Customize web integration
+
+      create:
+        title: New widget config
+        notice: Widget config was successfully created.
+
+      destroy:
+        notice: Widget config was successfully destroyed.
+
+      form:
+        first_name: First Name
+        family_name: Last Name
+        email: Email
+        mobile_number: Mobile Number
+        address: Address
+        display: Display
+        required: Required
+
+    add_channels:
+      web:
+        title: Website Channel Integration
+
+      ios:
+        title: IOS App Channel Integration
+
+      android:
+        title: Android App Channel Integration
+
+    funnels:
+      index:
+        title: List funnels
+        confirm: Are you sure?
+
+      show:
+        title: Show funnel
+        confirm: Are you sure?
+
+      edit:
+        title: Edit funnel
+
+      update:
+        title: Edit funnel
+        notice: Funnel was successfully updated.
+
+      new:
+        title: New funnel
+
+      create:
+        title: New funnel
+        notice: Funnel was successfully created.
+
+      destroy:
+        notice: Funnel was successfully destroyed.
+
+    deliveries:
+      index:
+        title: List deliveries
+        confirm: Are you sure?
+
+      show:
+        title: Show delivery
+        confirm: Are you sure?
+
+      edit:
+        title: Edit delivery
+
+      update:
+        title: Edit delivery
+        notice: Delivery was successfully updated.
+
+      update_pattern:
+        title: Edit delivery pattern
+        notice: Delivery Pattern was successfully updated.
+
+      new:
+        title: New delivery
+
+      create:
+        title: New delivery
+        notice: Delivery was successfully created.
+
+      destroy:
+        notice: Delivery was successfully destroyed.
+
+      destroy_pattern:
+        notice: Delivery Pattern was successfully destroyed.
+
+      upload_files:
+        title: List deliveries
+        notice: Delivery was successfully uploaded.
+        confirm: Are you sure?
+
+      upload_pattern_files:
+        title: List deliveries
+        notice: Delivery Pattern was successfully uploaded.
+        confirm: Are you sure?
+
+    payments:
+      show:
+        title: Plan Information
+        plan_name: Purchased plan
+        enterprise: Enterprise
+        contract_period: Contract period
+        next_renewal_date: Next renewal date
+        contract_amount: Contract price
+        number_of_available_chat_users_per_month: Maximum number of active customers per month
+        number_of_chat_users_per_month: Number of active customers for the current month
+        payment_information: Payment information
+        unlimited: Unlimited
+        trial: trial
+        growth_monthly: Growth Plan (monthly)
+        growth_annual: Growth Plan (annual)
+        the_end_of_the_trial_is_approaching: Free trial period is about to end.
+        plan_update_date_is_approaching: Just a friendly reminder that your subscription will expire soon.
+        free_for_trial_period: Free for trial period
+        available_users_unlimited_campaign: Limited time offer! Unlimited number of users.
+
+      edit_card:
+        title: Payment Information
+        card_number: Card number
+        expires: Expires
+        year: Year
+        month: Month
+        security_code: Security Code
+        edit_card: Edit card
+        invoice_payment: Invoice payment
+
+      update_card:
+        title: Payment Information
+        notice: Payment Information was successfully updated.
+
+    mobile_push_endpoints:
+      index:
+        title: List mobile push endpoints
+        confirm: Are you sure?
+
+      show:
+        title: Show mobile push endpoint
+        confirm: Are you sure?
+
+      edit:
+        title: Edit mobile push endpoint
+
+      update:
+        title: Edit mobile push endpoint
+        notice: Mobile push endpoint was successfully updated.
+
+      new:
+        title: New mobile push endpoint
+
+      create:
+        title: New mobile push endpoint
+        notice: Mobile push endpoint was successfully created.
+
+      destroy:
+        notice: Mobile push endpoint was successfully destroyed.
+
+    root:
+      index:
+        title: Dashborad
+
+  link:
+    New: New
+    Show: Show
+    Edit: Edit
+    Destroy: Destroy
+    Back: <i class="fa fa-angle-left" aria-hidden="true"></i> Back
+    home: Home
+    open_chat: Open Chat Console
+    invite: Invite
+    report: Report
+    sign_out: Sign out
+    select_app: Select App
+    add_member: Add Member
+    invite_member: Invite
+    invite_from_csv: Invite from CSV
+    account: Account
+    dashboard: Dashboard
+    back_to_inbox: Back to Inbox
+    setting: setting
+    disable: Disable
+    cancel_subscription: Cancel subscription
+
+  button:
+    Create: Create
+    Update: Update
+    add_sticker_app: Add widget
+    add_app_icon: Add app icon
+    add_org_config: Add App custom data
+    add_user_config: Add user custom data
+    add_funnel: Add funnel
+    add_recipe_condition: Add recipe condition
+    add_recipe_condition_datetime: Add recipe condition datetime
+    add_recipe_condition_org: Add recipe condition org
+    add_recipe_action: Add recipe action
+    add_recipe_action_email: Add recipe action email
+    add_recipe_action_message: Add recipe action message
+    add_recipe_action_delete_user: Add recipe action delete user
+    add_recipe_action_delete_user_not_access: Add recipe action delete user not access
+    add_fixed_phrase: Add fixed phrase
+    add_mobile_push_endpoint: Add mobile push endpoint
+    Save: Save
+    New: New
+    next: Next
+    create_trigger: Create a trigger
+    create_condition: Create a condition
+    create_action: Create a action
+    create_recipe: Create a recipe
+    create_coupon: Create a coupon
+    choose_photo: Choose photo
+    ok: OK
+
+  message:
+    SaveError: Errors.
+    DeleteConfirm: Are you sure?
+
+  app: :activerecord.models.app  #g
+  config_value: config_value  #g
+
+  label:
+    aggregate: aggregate
+    spam: spam
+    offensive: offensive
+    other: other
+    index: index
+    coupon: Coupons
+    show: show
+    create: create
+    update: update
+    edit: edit
+    destroy: destroy
+    api_index: api_index
+    api_show: api_show
+    api_create: api_create
+    api_update: api_update
+    api_destroy: api_destroy
+    report: report
+    invite: invite
+    batch_invite: Batch Invite
+    me: me
+    subscribe: subscribe
+    unsubscribe: unsubscribe
+    assign: assign
+    unassign: unassign
+    reply: reply
+    admin: admin
+    create_parent: create_parent
+    org: org
+    role: role
+    mine: mine
+    close: close
+    create_all: create_all
+    create_answers: create_answers
+    widget: widget
+    copy_to_clipboard: Copy to Clipboard
+    copied: Copied
+    allow: allow
+    deny: deny
+    add_picture: add_picture
+    edit_picture: edit_picture
+    kind_of_member: kind_of_member
+    orgs_for_invite: Team
+    is_admin: is_admin
+    exists: exists
+    not_exists: not_exists
+    registerd_email: registerd_email
+    report: Statistics
+    sticker: Widget Availability
+    funnel: Funnels
+    recipe: Recipes
+    org: Teams
+    customer: Customers
+    chat: chat
+    dashboard: Admin Dashboard
+    parent_org: a Company
+    child_org: a Store
+    invite_superorgadmin: "Admin of %{org_kind}(%{org_name})"
+    invite_orgadmin: "Admin of %{org_kind}(%{org_name})"
+    invite_normal: "Member of %{org_kind}(%{org_name})"
+    invite_developer: "Developer of %{org_kind}(%{org_name})"
+    org_name: "%{org_kind} name"
+    org_id: "%{org_kind} ID"
+    add_org: "Add %{org_kind}"
+    create_new_team: "Create new Team"
+    edit_org: "Edit %{org_kind}"
+    show_org: "Show %{org_kind}"
+    welcome_message: "Welcome to ChatCenter for %{app_name}!"
+    do_not_display_next: "Do not display this message again"
+    member_name: Name
+    state: state
+    online: Online
+    options: Options
+    status_member: Status
+    sup_title_member: Manage the members inside a team
+    sup_title_team_members: Create and Manage your teams
+    sup_title_customers: Manage your customers
+    offline: Offline
+    superadmin: Super Admin
+    appadmin: App Admin
+    superorgadmin: Super Org Admin
+    orgadmin: Org Admin
+    normal: Normal
+    teamadmin: Team Admin
+    teammember: Team Member
+    sales: Sales
+    developer: Developer
+    manage_orgs: Manage Teams
+    inbox: INBOX
+    inviting: Inviting
+    select_appointment_type: Select appointment type
+    show_children: show_children
+    update_uid: update_uid
+    re_invite: re_invite
+    show_email: show_email
+    follow: follow
+    unfollow: unfollow
+    download: download
+    upload: upload
+    account: account
+    update_user: Update user
+    add_channel: Add Channels
+    website: Website
+    ios: iOS App
+    android: Android App
+    obtain_code: Obtain Code
+    configure: Configure
+    accelerate_efficiency: Accelerate Efficiency
+    manage: Manage
+    analyze: Analyze
+    setting: Setting
+    app_setting: App Settings
+    platform_setting: Platform Settings
+    manage_role: Manage Roles
+    manage_privilege: Manage Privileges
+    manage_white_list: Manage Whitelists
+    org_user: Teams and Members
+    fixed_phrase: Saved Widgets
+    ecarules: Automations
+    suggestion: Suggestions
+    or_add_a_new_team: Or add a new team
+    user_edit: My Profile
+    placeholder_address: Enter team Address
+    placeholder_phone: Enter team Phone Number
+    placeholder_name: Enter team name
+    placeholder_id: Enter team ID
+    placeholder_user_mail: Enter user mail
+    placeholder_first_name: Enter first name
+    placeholder_last_name: Enter last name
+    placeholder_display_name: Enter display name
+    placeholder_user_phone: Enter user phone
+    placeholder_user_pass: Enter user password
+    placeholder_user_pass_confrimation: Enter user password confirmation
+    placeholder_mail_address: Enter mail Address
+    default_for_all_the_team: Default for all the teams
+    menu:
+      title: Menu
+      switch: Switch
+      inbox: Inbox
+      dashboard: Dashboard
+      platform_integrations: Platform Integrations
+      ios_app: iOS App
+      android_app: Android App
+      website: Website
+      efficiency: Efficiency
+      saved_messages: Saved Widgets
+      two_tap_messages: Widget Availability
+      suggestions: Suggestions
+      automations: Automations
+      management: Management
+      team_and_members: Team and Members
+      customers: Customers
+      deliveries: Deliveries
+      delivery_patterns: Delivery patterns
+      analytics: Analytics
+      funnels: Funnels
+      statistics: Statistics
+      profile_settings: Profile Settings
+      app_settings: App Settings
+      manage_mobile_push_endpoints: Manage Mobile Push Endpoints
+      plan_info: Plan Informations
+      platform_settings: Platform Settings
+      manage_roles: Manage Roles
+      manage_privileges: Manage Privileges
+      manage_whitelists: Manage Whitelists
+      sign_out: Sign Out
+      settings: Settings
+      active: Active
+      today: Today
+      day_ago: day ago
+      days_ago: days ago
+
+    appointment_type:
+      new: new
+      competition: competition
+      other: other
+
+    broadcast_message: Broadcast Message
+    broadcast_question: Broadcast Question
+
+    business_type:
+      btoc: B to C
+      btobtoc: B to B to C
+      team: TEAM
+
+    take_appointment: take appointment
+    select_competitor_name: Select competitor name
+    input_data: Input data
+    competitor_media_image: Competitor media image
+    this_opportunity_impression: This opportunity impression
+    competitor:
+      baitoru: Baitoru
+      mynavi_baito: Mynavi baito
+      an: an
+      arukita: arukita
+      none: none
+
+    input_other: Input other
+    latest_competitor_publish: Latest competitor publish
+    input_proposal_information: Input proposal information
+    competitor_image:
+      cheap: Cheap
+      publish_until_employment: Publish until employment
+      great_salesman: Great salesman
+      certain_attrctiong: Certain attrctiong
+      media_promotion: Media promotion
+
+    opportunity_impression:
+      bad: bad
+      poor: poor
+      average: average
+      good: good
+      excellent: excellent
+
+    message_status:
+      title: Message status
+      sent: sent
+      opened: opend
+
+    input_other_memo: Input other memo
+    save_and_exit: Save and exit
+    list_schedules: List schedules
+    before_minutes: "%{minutes} minutes before"
+    alfred_welcome_message1: "Hi %{name}, welcome to ALFRED. I am here to help you find best restaurants in Tokyo, Japan."
+    alfred_welcome_message2: "Open during 10:00am-06:00pm. Sat, Sun, Japanese National Holiday Closed."
+    alfred_welcome_message3: "How can I help you?"
+    required: Required
+    inquiry_log: Inquiry log
+    message_log: Message log
+    output_csv: Download CSV file
+    from_date: From date
+    to_date: To date
+    row_number: "Row %{row}"
+    change: Change
+    select_file: Select file
+    remove: Remove
+    resend: Resend
+    no_dashes: No dashes
+    conversations: Conversations
+
+    trigger_type:
+      batch: Batch
+      create_channel: Create a channel
+      update_channel_information: Update a channel information
+
+    condition_type:
+      datetime: Datetime
+      always: Always
+      org: :activerecord.models.org
+
+    repeat_type:
+      every_day: Every day
+      every_week: Every week
+      every_month: Every month
+
+    action_type:
+      send_email: Send an email
+      create_message: Send a message
+      delete_user: Delete a user
+
+    email_type:
+      unread_channels: Unread channels
+      receive:
+        unread_channels: Receive unread channels
+
+    delete_user_type:
+      not_access: Not access
+
+    status:
+      unassigned: Unassigned
+
+    message_type:
+      message: Message
+      question: Question
+
+    channel:
+      assignee: Assignee
+
+    message_log_csv:
+      parent_org_id: Superorg ID
+      child_org_id: Org ID
+      channel_id: Channel ID
+      message_id: Message ID
+      message_user_id: Message user ID
+      message_user_name: Message user name
+      sent_at: Sent at
+      message_type: Message type
+      message_content: Message content
+      channel_informations: Channel informations
+      unread: unread
+      read: read
+      read_at: Read at
+      property_name: Property name
+      room_number: Room number
+      price: Price
+      address: Address
+      property_code: Property code
+      url: URL
+      deleted_user: "***Deleted user***"
+      guest_user: "***Guest***"
+      agent_user: "***Agent***"
+      sent_image: Sent an image
+      sent_pdf: Sent a PDF
+      sent_suggestion: Sent a suggestion
+      sent_other: Sent an Other
+
+    failed_sending_file: "Please size of the file is in the 20MB or less."
+
+    mobile_push_type:
+      amazon_sns: Amazon SNS
+
+    device_type:
+      ios: iOS
+      android: Android
+
+    locale:
+      ja: Japanese
+      en: English
+
+    delivery_status:
+      before_check: Before check
+      not_have_channel: Not have a channel
+      before_delivery: Before delivery
+      on_delivery: On delivery
+      move_back: Move back
+      delivery_completed: Delivery completed
+      delivery_canceled: Delivery canceled
+
+    password_patten: "It must be at least 9 characters and not more than 128 characters, and at least 1 numeric character and alphabet are included."
+    password_confirmation_patten: "It does not match password."
+    all_items_required: "All of the following items are mandatory inputs."
+    enter_valid_email_address: Enter a valid e-mail address.
+    new_card: New card
+    not_selected: Not Selected
+
+  answer_text: answer_text  #g
+  answers: answers  #g
+  call:
+    close: Close
+    hangup: Hangup
+
+  mailer:
+    assigned_to_channel:
+      subject: "%{app_name} You were assigned to a conversation."
+      hello: "Hi, %{recipient},"
+      someone_assigned_you: "You were assigned to a conversation with your customer on ChatCenter for %{app_name}."
+      accept: "You can support your customer on this page."
+      sender: "Sent from ChatCenter for %{app_name}"
+
+    created_channel:
+      subject: "%{app_name} A conversation is created."
+      hello: "Hi, %{recipient},"
+      someone_created_channel: "Conversation is created on %{orn_name}."
+      accept: "You can support your customer on this page."
+      sender: "Sent from ChatCenter for %{app_name}"
+
+    received_message:
+      subject: "%{app_name} You received a message."
+      hello: "Hi, %{recipient},"
+      you_received_message: "You received a message from %{sender_name}."
+      accept: "You can support your customer on this page."
+      sender: "Sent from ChatCenter for %{app_name}"
+
+    unread_messages:
+      subject: "%{target_name} : 未確認チャットレポート"
+      today_unread_messages_count: "本日 %{count}件の未確認メッセージがあります。"
+      today_unread_messages_nothing: "本日未確認のメッセージはありませんでした。"
+      report_of_unread_messages: "本メールは毎日朝と夕方に自動配信している未確認メッセージ状況のレポートです。"
+      unread_messages_header: "■ 未確認メッセージ"
+      total_count: "%{target_name} : 計%{count}件"
+      partial_count: "%{target_name} : %{count}件"
+      org_situation: "店舗状況"
+      user_situation: "メンバー状況"
+      unread_messages_count: "未確認メッセージ件数"
+
+    unread_messages_suumo:
+      subject: "【SUUMOチャット機能】現在のチャット対応状況のご報告:%{target_name}用"
+      today_unread_messages_count: "本日、未対応のメッセージが%{count}件あります。"
+      today_unread_messages_nothing: "本日、未対応のメッセージはありませんでした。"
+      report_of_unread_messages: "本メールはSUUMOチャット機能の対応状況を集計したレポートです。"
+      send_time: "毎朝、毎夕に自動送信いたします。"
+      unread_messages_header: "＜未対応状況レポート＞"
+      total_count: "%{target_name}の未対応件数 : 計%{count}件"
+      partial_count: "%{target_name} : %{count}件"
+      unread_messages_count: "未読"
+      suumo_chat_login: '・SUUMOチャット機能ログイン画面'
+      suumo_chat_unsubscribe: '・配信停止はこちら'
+      footer1: '■□■------------------------------------------------------------'
+      footer2: 'サービス提供元'
+      footer3: '株式会社リクルートホールディングス'
+      footer4: 'http://www.recruit.co.jp/'
+
+    not_access:
+      subject: "%{app_name} Your account will be deleted soon, because there is not access for %{not_access_months} months."
+      hello: "Hi, %{recipient},"
+      delete_user: "Because there is not access for %{not_access_months} months, your account will be deleted to continue there is not access for 1 month."
+      sign_in: "You can sign in on this page."
+      sender: "Sent from ChatCenter for %{app_name}"
+
+  sms:
+    received_message:
+      subject: "%{app_name} You received a message."
+
+  mobile_push:
+    received_message:
+      subject: "You received a message."
+
+  web_push:
+    received_message:
+      subject: "You received a message."
